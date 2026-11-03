@@ -1,0 +1,78 @@
+{
+  "status": "predeclared_untuned_protocol",
+  "scope": "locked training partition only; held-out test partition excluded",
+  "source_shot_csv_sha256": "8d816beff3683f38bbe071d2570a2d167b85b0bdf432216622c2a15048fc3ea0",
+  "holdout_manifest_sha256": "a13333d293a42a1b00d6f2d5a53d7893aae80efaaf4f881240c2994809661081",
+  "holdout_membership_sha256": "6f440ba578677f9d0eb2f343960285fb1d006d864490cf1a40c868a06e1c2cc7",
+  "cv_manifest_sha256": "b20ad92440a5a38d13ed896291e9e014e7923b6ce73e6aca9f1b3e1b5855bcf8",
+  "cv_membership_sha256": "adbf280606b59a47b83288afaba60c3432fa111752f424f90c84682fb2adfab5",
+  "model_contract_sha256": "863f1865be25468f4805353db9f0fb4301339de2791fd04a9ac8488bbf66ca98",
+  "scikit_learn_version": "1.9.1",
+  "python_version": "3.14.7",
+  "numpy_version": "2.5.4",
+  "scipy_version": "1.18.1",
+  "joblib_version": "1.6.0",
+  "training_shot_count": 7334,
+  "training_match_count": 304,
+  "cross_validation": {
+    "folds": 10,
+    "method": "StratifiedGroupKFold(shuffle=True, random_state=42)"
+  },
+  "feature_columns": [
+    "distance_sb_units",
+    "angle_sb_radians",
+    "body_part",
+    "shot_type",
+    "technique",
+    "play_pattern",
+    "under_pressure",
+    "first_time",
+    "open_goal"
+  ],
+  "target": "is_goal",
+  "group_column": "match_id",
+  "models": {
+    "prior_baseline": {
+      "estimator": "DummyClassifier",
+      "strategy": "prior"
+    },
+    "knn_50": {
+      "estimator": "KNeighborsClassifier",
+      "n_neighbors": 50,
+      "weights": "uniform",
+      "algorithm": "brute",
+      "n_jobs": 1
+    },
+    "gaussian_nb": {
+      "estimator": "GaussianNB",
+      "var_smoothing": 1e-09
+    },
+    "logistic_regression": {
+      "estimator": "LogisticRegression",
+      "C": 1.0,
+      "solver": "lbfgs",
+      "max_iter": 2000
+    }
+  },
+  "probability_threshold": 0.5,
+  "threshold_rule": "predict goal when P(goal) >= 0.5",
+  "metrics": [
+    "log_loss",
+    "brier_score",
+    "average_precision",
+    "roc_auc",
+    "accuracy",
+    "precision",
+    "recall",
+    "f1"
+  ],
+  "metrics_note": "Log loss uses natural logarithms; sklearn.metrics.log_loss clips probabilities to machine epsilon for numerical stability. No manual probability calibration is applied.",
+  "prohibited_during_this_phase": [
+    "hyperparameter search",
+    "SMOTE or other resampling",
+    "class weighting",
+    "probability calibration",
+    "threshold optimization",
+    "held-out test feature or outcome inspection"
+  ]
+}

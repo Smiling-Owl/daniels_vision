@@ -1,0 +1,1057 @@
+{
+  "status": "passed",
+  "checked_date": "2026-10-24",
+  "source_revision": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "report_sha256": "4f1478824bdad848769252f81dbe5920042cf67b23d3b623cf749e0018eee14c",
+  "dataset": {
+    "audit": "Independent read-only recomputation from pinned raw StatsBomb snapshot and processed CSVs",
+    "source_revision": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+    "source_files": {
+      "snapshot_match_index_json_files": 1,
+      "season_match_index_path": "data/matches/11/27.json",
+      "la_liga_match_records": 380,
+      "event_json_files_for_season": 380,
+      "scope_wording": "380 matches and their associated event files; source has one season match-index JSON file"
+    },
+    "raw": {
+      "events": 1295354,
+      "shot_events": 9168,
+      "shot_outcome_counts": {
+        "Blocked": 2081,
+        "Saved": 2216,
+        "Off T": 2981,
+        "Wayward": 599,
+        "Goal": 1014,
+        "Post": 209,
+        "Saved to Post": 33,
+        "Saved Off Target": 35
+      },
+      "official_goals_sum_from_raw_match_scores": 1043,
+      "own_goal_event_counts": {
+        "Own Goal For": 29,
+        "Own Goal Against": 29
+      }
+    },
+    "processed": {
+      "shot_rows": 9168,
+      "shot_columns": 35,
+      "unique_shot_event_ids": 9168,
+      "shot_event_ids_match_raw": true,
+      "positive_goals": 1014,
+      "recognized_non_goals": 8154,
+      "own_goals_csv_rows": 29,
+      "own_goal_against_ids_match_csv": true,
+      "official_score_reconciliation_rows": 380,
+      "official_score_reconciliation_mismatches": []
+    },
+    "split": {
+      "train_matches": 304,
+      "train_shots": 7334,
+      "train_goals": 802,
+      "train_non_goals": 6532,
+      "test_matches": 76,
+      "test_shots": 1834,
+      "test_goals": 212,
+      "test_non_goals": 1622
+    },
+    "folds": [
+      {
+        "fold": 1,
+        "validation_matches": 29,
+        "validation_shots": 729,
+        "validation_goals": 85,
+        "categorical_levels": {
+          "body_part": 4,
+          "shot_type": 3,
+          "technique": 7,
+          "play_pattern": 9
+        },
+        "transformed_features": 28
+      },
+      {
+        "fold": 2,
+        "validation_matches": 30,
+        "validation_shots": 727,
+        "validation_goals": 79,
+        "categorical_levels": {
+          "body_part": 4,
+          "shot_type": 3,
+          "technique": 7,
+          "play_pattern": 9
+        },
+        "transformed_features": 28
+      },
+      {
+        "fold": 3,
+        "validation_matches": 30,
+        "validation_shots": 726,
+        "validation_goals": 80,
+        "categorical_levels": {
+          "body_part": 4,
+          "shot_type": 3,
+          "technique": 7,
+          "play_pattern": 9
+        },
+        "transformed_features": 28
+      },
+      {
+        "fold": 4,
+        "validation_matches": 31,
+        "validation_shots": 739,
+        "validation_goals": 79,
+        "categorical_levels": {
+          "body_part": 4,
+          "shot_type": 3,
+          "technique": 7,
+          "play_pattern": 9
+        },
+        "transformed_features": 28
+      },
+      {
+        "fold": 5,
+        "validation_matches": 30,
+        "validation_shots": 727,
+        "validation_goals": 78,
+        "categorical_levels": {
+          "body_part": 4,
+          "shot_type": 3,
+          "technique": 7,
+          "play_pattern": 9
+        },
+        "transformed_features": 28
+      },
+      {
+        "fold": 6,
+        "validation_matches": 31,
+        "validation_shots": 740,
+        "validation_goals": 79,
+        "categorical_levels": {
+          "body_part": 4,
+          "shot_type": 3,
+          "technique": 7,
+          "play_pattern": 9
+        },
+        "transformed_features": 28
+      },
+      {
+        "fold": 7,
+        "validation_matches": 31,
+        "validation_shots": 738,
+        "validation_goals": 79,
+        "categorical_levels": {
+          "body_part": 4,
+          "shot_type": 3,
+          "technique": 7,
+          "play_pattern": 9
+        },
+        "transformed_features": 28
+      },
+      {
+        "fold": 8,
+        "validation_matches": 31,
+        "validation_shots": 733,
+        "validation_goals": 78,
+        "categorical_levels": {
+          "body_part": 4,
+          "shot_type": 3,
+          "technique": 7,
+          "play_pattern": 9
+        },
+        "transformed_features": 28
+      },
+      {
+        "fold": 9,
+        "validation_matches": 30,
+        "validation_shots": 732,
+        "validation_goals": 82,
+        "categorical_levels": {
+          "body_part": 4,
+          "shot_type": 3,
+          "technique": 7,
+          "play_pattern": 9
+        },
+        "transformed_features": 28
+      },
+      {
+        "fold": 10,
+        "validation_matches": 31,
+        "validation_shots": 743,
+        "validation_goals": 83,
+        "categorical_levels": {
+          "body_part": 4,
+          "shot_type": 3,
+          "technique": 7,
+          "play_pattern": 9
+        },
+        "transformed_features": 28
+      }
+    ],
+    "geometry_bins_training_partition": [
+      {
+        "dimension": "distance_sb_units",
+        "band": "0-6",
+        "shots": 214,
+        "goals": 100,
+        "goal_rate": 0.4672897196261682
+      },
+      {
+        "dimension": "distance_sb_units",
+        "band": "6-12",
+        "shots": 1610,
+        "goals": 340,
+        "goal_rate": 0.2111801242236025
+      },
+      {
+        "dimension": "distance_sb_units",
+        "band": "12-18",
+        "shots": 1803,
+        "goals": 233,
+        "goal_rate": 0.12922906267332224
+      },
+      {
+        "dimension": "distance_sb_units",
+        "band": "18-24",
+        "shots": 1565,
+        "goals": 82,
+        "goal_rate": 0.0523961661341853
+      },
+      {
+        "dimension": "distance_sb_units",
+        "band": "24-36",
+        "shots": 1980,
+        "goals": 46,
+        "goal_rate": 0.023232323232323233
+      },
+      {
+        "dimension": "distance_sb_units",
+        "band": "36-80",
+        "shots": 162,
+        "goals": 1,
+        "goal_rate": 0.006172839506172839
+      },
+      {
+        "dimension": "angle_sb_radians",
+        "band": "0-pi/6",
+        "shots": 5308,
+        "goals": 308,
+        "goal_rate": 0.058025621703089676
+      },
+      {
+        "dimension": "angle_sb_radians",
+        "band": "pi/6-pi/3",
+        "shots": 1739,
+        "goals": 373,
+        "goal_rate": 0.21449108683151236
+      },
+      {
+        "dimension": "angle_sb_radians",
+        "band": "pi/3-pi/2",
+        "shots": 240,
+        "goals": 88,
+        "goal_rate": 0.36666666666666664
+      },
+      {
+        "dimension": "angle_sb_radians",
+        "band": "pi/2-2pi/3",
+        "shots": 33,
+        "goals": 20,
+        "goal_rate": 0.6060606060606061
+      },
+      {
+        "dimension": "angle_sb_radians",
+        "band": "2pi/3-5pi/6",
+        "shots": 9,
+        "goals": 8,
+        "goal_rate": 0.8888888888888888
+      },
+      {
+        "dimension": "angle_sb_radians",
+        "band": "5pi/6-pi",
+        "shots": 5,
+        "goals": 5,
+        "goal_rate": 1.0
+      }
+    ],
+    "report_table_1_first_five_rows": [
+      {
+        "event_id": "000d43e0-4d1a-4087-9dee-e05ca7ba2c08",
+        "display_event_id": "000d43e0-4...",
+        "match_id": 3825808,
+        "outcome": "Off T",
+        "distance_sb_units": 16.42,
+        "angle_sb_radians": 0.44,
+        "is_goal": 0
+      },
+      {
+        "event_id": "001d7c7d-1448-4701-9b82-40f0e220b899",
+        "display_event_id": "001d7c7d-1...",
+        "match_id": 3825850,
+        "outcome": "Off T",
+        "distance_sb_units": 22.42,
+        "angle_sb_radians": 0.26,
+        "is_goal": 0
+      },
+      {
+        "event_id": "0020d4fc-cc7f-41b4-9e52-0f95f45ea9f8",
+        "display_event_id": "0020d4fc-c...",
+        "match_id": 3825682,
+        "outcome": "Off T",
+        "distance_sb_units": 27.59,
+        "angle_sb_radians": 0.21,
+        "is_goal": 0
+      },
+      {
+        "event_id": "0021d8c9-2475-43ed-b0a1-bbbabac05516",
+        "display_event_id": "0021d8c9-2...",
+        "match_id": 3825605,
+        "outcome": "Off T",
+        "distance_sb_units": 30.91,
+        "angle_sb_radians": 0.25,
+        "is_goal": 0
+      },
+      {
+        "event_id": "002a524e-c53e-4fd0-8bc1-7a181b1fa623",
+        "display_event_id": "002a524e-c...",
+        "match_id": 3825622,
+        "outcome": "Goal",
+        "distance_sb_units": 14.37,
+        "angle_sb_radians": 0.39,
+        "is_goal": 1
+      }
+    ],
+    "result": "PASS: all counts and row values recompute; no official-score mismatch"
+  },
+  "metrics": {
+    "status": "passed",
+    "check_count": 1927,
+    "scope": "Saved OOF predictions recomputed; frozen final models inferred without refitting; all printed metric/sample tables compared to source values.",
+    "recomputed": {
+      "development": {
+        "gaussian_nb_raw": {
+          "log_loss": 1.2972622105378269,
+          "brier_score": 0.11601183591752609,
+          "average_precision": 0.3223599997907453,
+          "roc_auc": 0.7445119595377752,
+          "accuracy": 0.8800109080992637,
+          "precision": 0.4105504587155963,
+          "recall": 0.2231920199501247,
+          "f1": 0.28917609046849757,
+          "tn": 6275,
+          "fp": 257,
+          "fn": 623,
+          "tp": 179,
+          "shot_count": 7334,
+          "goal_count": 802,
+          "non_goal_count": 6532,
+          "predicted_goal_count": 436,
+          "predicted_non_goal_count": 6898,
+          "exact_p0_count": 0,
+          "exact_p1_count": 183
+        },
+        "gaussian_nb_sigmoid": {
+          "log_loss": 0.3235330579525029,
+          "brier_score": 0.09128008182013925,
+          "average_precision": 0.24617668764699513,
+          "roc_auc": 0.6480178915845719,
+          "accuracy": 0.8906463048813744,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tn": 6532,
+          "fp": 0,
+          "fn": 802,
+          "tp": 0,
+          "shot_count": 7334,
+          "goal_count": 802,
+          "non_goal_count": 6532,
+          "predicted_goal_count": 0,
+          "predicted_non_goal_count": 7334,
+          "exact_p0_count": 0,
+          "exact_p1_count": 0
+        },
+        "knn_50_raw": {
+          "log_loss": 0.36744255123427216,
+          "brier_score": 0.08229479138260158,
+          "average_precision": 0.3652556082934195,
+          "roc_auc": 0.785028873773924,
+          "accuracy": 0.8991000818107445,
+          "precision": 0.7246376811594203,
+          "recall": 0.12468827930174564,
+          "f1": 0.2127659574468085,
+          "tn": 6494,
+          "fp": 38,
+          "fn": 702,
+          "tp": 100,
+          "shot_count": 7334,
+          "goal_count": 802,
+          "non_goal_count": 6532,
+          "predicted_goal_count": 138,
+          "predicted_non_goal_count": 7196,
+          "exact_p0_count": 806,
+          "exact_p1_count": 0
+        },
+        "knn_50_sigmoid": {
+          "log_loss": 0.29069413758824264,
+          "brier_score": 0.0830867784597035,
+          "average_precision": 0.37463177830539074,
+          "roc_auc": 0.7845443991063371,
+          "accuracy": 0.8976002181619853,
+          "precision": 0.624390243902439,
+          "recall": 0.1596009975062344,
+          "f1": 0.2542204568023833,
+          "tn": 6455,
+          "fp": 77,
+          "fn": 674,
+          "tp": 128,
+          "shot_count": 7334,
+          "goal_count": 802,
+          "non_goal_count": 6532,
+          "predicted_goal_count": 205,
+          "predicted_non_goal_count": 7129,
+          "exact_p0_count": 0,
+          "exact_p1_count": 0
+        },
+        "logistic_regression_raw": {
+          "log_loss": 0.2746684930613188,
+          "brier_score": 0.07960544287817355,
+          "average_precision": 0.4174177075399766,
+          "roc_auc": 0.8112218115153024,
+          "accuracy": 0.9008726479410962,
+          "precision": 0.6582278481012658,
+          "recall": 0.19451371571072318,
+          "f1": 0.30028873917228105,
+          "tn": 6451,
+          "fp": 81,
+          "fn": 646,
+          "tp": 156,
+          "shot_count": 7334,
+          "goal_count": 802,
+          "non_goal_count": 6532,
+          "predicted_goal_count": 237,
+          "predicted_non_goal_count": 7097,
+          "exact_p0_count": 0,
+          "exact_p1_count": 0
+        },
+        "logistic_regression_sigmoid": {
+          "log_loss": 0.27465944221534727,
+          "brier_score": 0.07957621824525304,
+          "average_precision": 0.4174105906772892,
+          "roc_auc": 0.8112391823564176,
+          "accuracy": 0.9022361603490592,
+          "precision": 0.6888888888888889,
+          "recall": 0.19326683291770574,
+          "f1": 0.3018500486854917,
+          "tn": 6462,
+          "fp": 70,
+          "fn": 647,
+          "tp": 155,
+          "shot_count": 7334,
+          "goal_count": 802,
+          "non_goal_count": 6532,
+          "predicted_goal_count": 225,
+          "predicted_non_goal_count": 7109,
+          "exact_p0_count": 0,
+          "exact_p1_count": 0
+        },
+        "prior_baseline": {
+          "log_loss": 0.34517363773444987,
+          "brier_score": 0.09739773888258167,
+          "average_precision": 0.10743999514412597,
+          "roc_auc": 0.4916221005966407,
+          "accuracy": 0.8906463048813744,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tn": 6532,
+          "fp": 0,
+          "fn": 802,
+          "tp": 0,
+          "shot_count": 7334,
+          "goal_count": 802,
+          "non_goal_count": 6532,
+          "predicted_goal_count": 0,
+          "predicted_non_goal_count": 7334,
+          "exact_p0_count": 0,
+          "exact_p1_count": 0
+        }
+      },
+      "test": {
+        "gaussian_nb_raw": {
+          "log_loss": 1.2176089387059794,
+          "brier_score": 0.11648559378431658,
+          "average_precision": 0.3644173045465714,
+          "roc_auc": 0.7579973477886607,
+          "accuracy": 0.8800436205016358,
+          "precision": 0.46296296296296297,
+          "recall": 0.2358490566037736,
+          "f1": 0.3125,
+          "tn": 1564,
+          "fp": 58,
+          "fn": 162,
+          "tp": 50,
+          "shot_count": 1834,
+          "goal_count": 212,
+          "non_goal_count": 1622,
+          "predicted_goal_count": 108,
+          "predicted_non_goal_count": 1726,
+          "exact_p0_count": 0,
+          "exact_p1_count": 51
+        },
+        "gaussian_nb_sigmoid": {
+          "log_loss": 0.3317720368696765,
+          "brier_score": 0.09419223218551762,
+          "average_precision": 0.36441280820569366,
+          "roc_auc": 0.7579798990298491,
+          "accuracy": 0.8844056706652127,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tn": 1622,
+          "fp": 0,
+          "fn": 212,
+          "tp": 0,
+          "shot_count": 1834,
+          "goal_count": 212,
+          "non_goal_count": 1622,
+          "predicted_goal_count": 0,
+          "predicted_non_goal_count": 1834,
+          "exact_p0_count": 0,
+          "exact_p1_count": 0
+        },
+        "knn_50_raw": {
+          "log_loss": 0.37277450847750254,
+          "brier_score": 0.08293893129770992,
+          "average_precision": 0.4412530871942272,
+          "roc_auc": 0.7983345159714306,
+          "accuracy": 0.8985823336968375,
+          "precision": 0.7954545454545454,
+          "recall": 0.1650943396226415,
+          "f1": 0.2734375,
+          "tn": 1613,
+          "fp": 9,
+          "fn": 177,
+          "tp": 35,
+          "shot_count": 1834,
+          "goal_count": 212,
+          "non_goal_count": 1622,
+          "predicted_goal_count": 44,
+          "predicted_non_goal_count": 1790,
+          "exact_p0_count": 204,
+          "exact_p1_count": 0
+        },
+        "knn_50_sigmoid": {
+          "log_loss": 0.29062496988632736,
+          "brier_score": 0.08285937559206913,
+          "average_precision": 0.4412530871942272,
+          "roc_auc": 0.7983345159714306,
+          "accuracy": 0.8985823336968375,
+          "precision": 0.7407407407407407,
+          "recall": 0.18867924528301888,
+          "f1": 0.3007518796992481,
+          "tn": 1608,
+          "fp": 14,
+          "fn": 172,
+          "tp": 40,
+          "shot_count": 1834,
+          "goal_count": 212,
+          "non_goal_count": 1622,
+          "predicted_goal_count": 54,
+          "predicted_non_goal_count": 1780,
+          "exact_p0_count": 0,
+          "exact_p1_count": 0
+        },
+        "logistic_regression_raw": {
+          "log_loss": 0.2768304035608308,
+          "brier_score": 0.08049130493645565,
+          "average_precision": 0.4635853577705433,
+          "roc_auc": 0.8203374008328874,
+          "accuracy": 0.8991275899672846,
+          "precision": 0.7288135593220338,
+          "recall": 0.2028301886792453,
+          "f1": 0.3173431734317343,
+          "tn": 1606,
+          "fp": 16,
+          "fn": 169,
+          "tp": 43,
+          "shot_count": 1834,
+          "goal_count": 212,
+          "non_goal_count": 1622,
+          "predicted_goal_count": 59,
+          "predicted_non_goal_count": 1775,
+          "exact_p0_count": 0,
+          "exact_p1_count": 0
+        },
+        "logistic_regression_sigmoid": {
+          "log_loss": 0.276996856402035,
+          "brier_score": 0.08054787476893366,
+          "average_precision": 0.4635853577705433,
+          "roc_auc": 0.8203374008328874,
+          "accuracy": 0.8991275899672846,
+          "precision": 0.7454545454545455,
+          "recall": 0.19339622641509435,
+          "f1": 0.30711610486891383,
+          "tn": 1608,
+          "fp": 14,
+          "fn": 171,
+          "tp": 41,
+          "shot_count": 1834,
+          "goal_count": 212,
+          "non_goal_count": 1622,
+          "predicted_goal_count": 55,
+          "predicted_non_goal_count": 1779,
+          "exact_p0_count": 0,
+          "exact_p1_count": 0
+        },
+        "prior_baseline": {
+          "log_loss": 0.35825079933887327,
+          "brier_score": 0.102271225875848,
+          "average_precision": 0.11559432933478735,
+          "roc_auc": 0.5,
+          "accuracy": 0.8844056706652127,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "tn": 1622,
+          "fp": 0,
+          "fn": 212,
+          "tp": 0,
+          "shot_count": 1834,
+          "goal_count": 212,
+          "non_goal_count": 1622,
+          "predicted_goal_count": 0,
+          "predicted_non_goal_count": 1834,
+          "exact_p0_count": 0,
+          "exact_p1_count": 0
+        }
+      }
+    }
+  },
+  "simulation": {
+    "status": "passed",
+    "check_count": 1201,
+    "method": "Independent PMF recurrence and full-array seeded Bernoulli replay; no project helper functions or fitting.",
+    "results": {
+      "phase09": {
+        "matches": 76,
+        "trials_per_match": 100000,
+        "official_goals_home": 134,
+        "official_goals_away": 84,
+        "shot_goals_home": 131,
+        "shot_goals_away": 81,
+        "own_goal_credits_home": 3,
+        "own_goal_credits_away": 3,
+        "exact_wdl": {
+          "265944": [
+            0.9867759982760164,
+            0.011274267856735964,
+            0.0019497338672476827
+          ],
+          "266254": [
+            0.9562804653103225,
+            0.033375965140412495,
+            0.01034356954926494
+          ],
+          "267274": [
+            0.11719370955058069,
+            0.2194767096235661,
+            0.6633295808258531
+          ],
+          "267506": [
+            0.019776686572851556,
+            0.09485971359120124,
+            0.8853635998359473
+          ],
+          "3825563": [
+            0.3426700797166509,
+            0.3993038488740915,
+            0.2580260714092577
+          ],
+          "3825567": [
+            0.07791949194668986,
+            0.24161636757980073,
+            0.6804641404735096
+          ],
+          "3825572": [
+            0.6441129455633744,
+            0.2254691422235386,
+            0.1304179122130873
+          ],
+          "3825582": [
+            0.21561739822113488,
+            0.3385298876282137,
+            0.4458527141506512
+          ],
+          "3825584": [
+            0.3821887868790804,
+            0.3427586550663575,
+            0.275052558054562
+          ],
+          "3825593": [
+            0.09223086595996785,
+            0.254074999203635,
+            0.6536941348363973
+          ],
+          "3825594": [
+            0.4802233485488997,
+            0.2678843824711226,
+            0.2518922689799776
+          ],
+          "3825595": [
+            0.4928251628114569,
+            0.28555769256313934,
+            0.22161714462540347
+          ],
+          "3825601": [
+            0.9793753304771218,
+            0.017638742068965256,
+            0.0029859274539130896
+          ],
+          "3825606": [
+            0.8187834739483842,
+            0.11325113564507182,
+            0.0679653904065441
+          ],
+          "3825614": [
+            0.24283826214401547,
+            0.39057748125684816,
+            0.36658425659913646
+          ],
+          "3825617": [
+            0.06888886548710073,
+            0.10391315611641357,
+            0.8271979783964856
+          ],
+          "3825618": [
+            0.20623868842059162,
+            0.2673908503410418,
+            0.5263704612383666
+          ],
+          "3825620": [
+            0.30306009985399884,
+            0.29697918493313274,
+            0.39996071521286847
+          ],
+          "3825622": [
+            0.7538496019704863,
+            0.1722371752025415,
+            0.07391322282697226
+          ],
+          "3825623": [
+            0.3205429757824531,
+            0.3068844409429959,
+            0.3725725832745509
+          ],
+          "3825626": [
+            0.4397409657952452,
+            0.23699545638021755,
+            0.3232635778245373
+          ],
+          "3825628": [
+            0.777969449140073,
+            0.15813859819407391,
+            0.06389195266585301
+          ],
+          "3825635": [
+            0.3701400640700592,
+            0.23853052942061628,
+            0.3913294065093246
+          ],
+          "3825642": [
+            0.16133429915773745,
+            0.30706623808284084,
+            0.5315994627594217
+          ],
+          "3825647": [
+            0.8239018735460102,
+            0.13068533569821042,
+            0.04541279075577931
+          ],
+          "3825649": [
+            0.33934230873595755,
+            0.31981997079319024,
+            0.3408377204708519
+          ],
+          "3825652": [
+            0.4067088310464409,
+            0.3335594796114355,
+            0.2597316893421237
+          ],
+          "3825659": [
+            0.2660919438077662,
+            0.5184288570407325,
+            0.21547919915150135
+          ],
+          "3825662": [
+            0.30692250466650356,
+            0.42917461643796423,
+            0.2639028788955323
+          ],
+          "3825673": [
+            0.15081989024668457,
+            0.2755835642512402,
+            0.5735965455020751
+          ],
+          "3825678": [
+            0.021161673688142483,
+            0.08666845835192988,
+            0.8921698679599275
+          ],
+          "3825680": [
+            0.13428093403983274,
+            0.3054290077027719,
+            0.5602900582573952
+          ],
+          "3825686": [
+            0.24885854352384298,
+            0.39108859802726775,
+            0.36005285844888923
+          ],
+          "3825699": [
+            0.23457614281607522,
+            0.3729672521333039,
+            0.39245660505062085
+          ],
+          "3825704": [
+            0.029654981191682143,
+            0.1115330504112004,
+            0.8588119683971173
+          ],
+          "3825706": [
+            0.24392453039560344,
+            0.37427551124598873,
+            0.38179995835840774
+          ],
+          "3825717": [
+            0.03645165195298449,
+            0.10721289201721648,
+            0.8563354560297989
+          ],
+          "3825719": [
+            0.602446380107644,
+            0.2455163779269178,
+            0.15203724196543827
+          ],
+          "3825727": [
+            0.9273484231171301,
+            0.058497155687368685,
+            0.014154421195501097
+          ],
+          "3825730": [
+            0.888057736215467,
+            0.08388794025674999,
+            0.02805432352778318
+          ],
+          "3825732": [
+            0.4402683419112087,
+            0.2673493493260426,
+            0.29238230876274884
+          ],
+          "3825737": [
+            0.4988266667802706,
+            0.2079048612886142,
+            0.2932684719311154
+          ],
+          "3825738": [
+            0.08062670887645897,
+            0.23243210115402183,
+            0.6869411899695194
+          ],
+          "3825739": [
+            0.8002351130667882,
+            0.1454734503150979,
+            0.054291436618113975
+          ],
+          "3825740": [
+            0.8197829794833966,
+            0.155369173498582,
+            0.024847847018021518
+          ],
+          "3825741": [
+            0.9015547159347478,
+            0.07038516901770192,
+            0.02806011504755003
+          ],
+          "3825742": [
+            0.458619401588753,
+            0.24795955637560999,
+            0.29342104203563735
+          ],
+          "3825749": [
+            0.34482245432604247,
+            0.2651914609749772,
+            0.38998608469898055
+          ],
+          "3825752": [
+            0.22582269366690966,
+            0.3369733374853496,
+            0.4372039688477407
+          ],
+          "3825757": [
+            0.4934059622017724,
+            0.2331089378408618,
+            0.2734850999573655
+          ],
+          "3825771": [
+            0.8865606840342791,
+            0.0909613135808591,
+            0.022478002384861726
+          ],
+          "3825774": [
+            0.2179391971287928,
+            0.44974298011410035,
+            0.332317822757107
+          ],
+          "3825776": [
+            0.5778901952999105,
+            0.27272632711739375,
+            0.14938347758269557
+          ],
+          "3825783": [
+            0.4059469483102863,
+            0.3871588098311769,
+            0.20689424185853691
+          ],
+          "3825792": [
+            0.2620085147205343,
+            0.31901679595697424,
+            0.4189746893224913
+          ],
+          "3825796": [
+            0.7606794568169737,
+            0.1693453344802054,
+            0.06997520870282099
+          ],
+          "3825797": [
+            0.8236056666299953,
+            0.12920371050542862,
+            0.04719062286457627
+          ],
+          "3825798": [
+            0.10595320028583277,
+            0.1939521850514614,
+            0.7000946146627058
+          ],
+          "3825805": [
+            0.5046417465984077,
+            0.3284581342378757,
+            0.16690011916371672
+          ],
+          "3825809": [
+            0.48828938085802087,
+            0.33815585337454174,
+            0.17355476576743747
+          ],
+          "3825810": [
+            0.730016665723685,
+            0.19091824621250664,
+            0.07906508806380848
+          ],
+          "3825821": [
+            0.5779189669482628,
+            0.22369061391894246,
+            0.1983904191327944
+          ],
+          "3825828": [
+            0.2517048987404537,
+            0.3066648749311858,
+            0.4416302263283605
+          ],
+          "3825836": [
+            0.5979029060717614,
+            0.2624797313165433,
+            0.13961736261169516
+          ],
+          "3825858": [
+            0.516184703536008,
+            0.27562912171363335,
+            0.20818617475035853
+          ],
+          "3825862": [
+            0.25245162451317554,
+            0.3986525589581766,
+            0.3488958165286479
+          ],
+          "3825866": [
+            0.09348578024749898,
+            0.5964126214941718,
+            0.310101598258329
+          ],
+          "3825869": [
+            0.34347484098336967,
+            0.2963865176029616,
+            0.3601386414136688
+          ],
+          "3825878": [
+            0.21104472548156533,
+            0.3188424890366504,
+            0.47011278548178415
+          ],
+          "3825881": [
+            0.19123673093606638,
+            0.40542650025757415,
+            0.40333676880635955
+          ],
+          "3825883": [
+            0.4922067739895277,
+            0.24520823158779356,
+            0.2625849944226787
+          ],
+          "3825886": [
+            0.1846193966857607,
+            0.22349490898416696,
+            0.5918856943300724
+          ],
+          "3825889": [
+            0.41327475384615664,
+            0.2674131476473901,
+            0.31931209850645337
+          ],
+          "3825890": [
+            0.5904694306324196,
+            0.32608618535538697,
+            0.08344438401219337
+          ],
+          "3825898": [
+            0.18656096795437244,
+            0.3641273826284473,
+            0.44931164941718027
+          ],
+          "3825903": [
+            0.28617314444452485,
+            0.3003547754156692,
+            0.4134720801398059
+          ]
+        }
+      },
+      "el_clasico": {
+        "matches": 2,
+        "trials_per_match": 100000,
+        "official_goals_home": 1,
+        "official_goals_away": 6,
+        "shot_goals_home": 1,
+        "shot_goals_away": 6,
+        "own_goal_credits_home": 0,
+        "own_goal_credits_away": 0,
+        "exact_wdl": {
+          "266424": [
+            0.0919824669739891,
+            0.14249086568425906,
+            0.7655266673417522
+          ],
+          "267533": [
+            0.20492890211817516,
+            0.25905871935002334,
+            0.5360123785318014
+          ]
+        }
+      }
+    }
+  },
+  "report_tables_unchanged": 44,
+  "protected_project_files_unchanged": 99,
+  "limits": [
+    "Nested cross-validation models were not refitted; OOF scores were independently recomputed from saved predictions.",
+    "The audit confirms consistency with the pinned source annotations and saved model probabilities, not annotation infallibility or future predictive validity.",
+    "Required genuine application screenshots remain pending."
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "status": "predeclared_el_clasico_development_oof_case_study",
+  "scope": "two user-requested 2015/16 El Clásico matches from training development OOF only",
+  "cases": {
+    "266424": {
+      "date": "2015-11-21",
+      "home": "Real Madrid",
+      "away": "Barcelona",
+      "official_home_goals": 0,
+      "official_away_goals": 4
+    },
+    "267533": {
+      "date": "2016-04-02",
+      "home": "Barcelona",
+      "away": "Real Madrid",
+      "official_home_goals": 1,
+      "official_away_goals": 2
+    }
+  },
+  "phase8_selected_variant": "logistic_regression_sigmoid",
+  "selection_sha256": "c6ce4779199cd4ee65737ec85c8a91ef6d8588a94eaa4a07fbc0484b99d6044c",
+  "development_report_sha256": "b8aaf78f8863b3e9a70e78138c5406717aaaf411cebe5c2abc853c39b858f5d1",
+  "oof_predictions_sha256": "a0f2d930f72144c1b080ad8b787179dcf5f743f593285a352c15c58b3e696960",
+  "cv_membership_sha256": "adbf280606b59a47b83288afaba60c3432fa111752f424f90c84682fb2adfab5",
+  "cv_manifest_sha256": "b20ad92440a5a38d13ed896291e9e014e7923b6ce73e6aca9f1b3e1b5855bcf8",
+  "phase4_report_sha256": "81ad6ee0c80bf76fea6de28009a78944cba551d6cd921385888b1e2c7ac3b93c",
+  "phase4_sources": {
+    "shots": {
+      "path": "data/processed/shots.csv",
+      "sha256": "8d816beff3683f38bbe071d2570a2d167b85b0bdf432216622c2a15048fc3ea0"
+    },
+    "reconciliation": {
+      "path": "data/processed/goal_reconciliation.csv",
+      "sha256": "52cfeba37125bc8e5baa98abb27ac91f99758e7a80b25c089531adfd44af9607"
+    },
+    "own_goals": {
+      "path": "data/processed/own_goals.csv",
+      "sha256": "c068cf3c37a86f74abe4bf4381d0b640bd4db227485783f486b2ffef3e8a3707"
+    }
+  },
+  "trial_count_per_match": 100000,
+  "chunk_size": 10000,
+  "seed": 42,
+  "rng_algorithm": "numpy.default_rng(SeedSequence([seed, match_id, side]))",
+  "team_side_codes": {
+    "home": 0,
+    "away": 1
+  },
+  "probability_source": "phase08_development_predictions.csv OOF rows for the already-frozen global candidate; no resubstitution rows or final full-training model predictions.",
+  "interpretation": "Development OOF case study: the outer validation match is excluded from that fold's fitting/calibration, but the variant was selected using overall development results. Not an independent test evaluation.",
+  "own_goal_policy": "Own goals are retained as reconciliation context only; no own goals are sampled or added to shot-generated scorelines.",
+  "versions": {
+    "python": "3.14.7",
+    "numpy": "2.5.4",
+    "pandas": "3.0.6"
+  }
+}

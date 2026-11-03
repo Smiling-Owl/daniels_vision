@@ -1,0 +1,2050 @@
+[
+  {
+    "competition": "Champions League",
+    "season": "2018/2019",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 4,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Tottenham Hotspur",
+        1
+      ],
+      [
+        "Liverpool",
+        1
+      ]
+    ],
+    "match_ids": [
+      22912
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2017/2018",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 1,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Real Madrid",
+        1
+      ],
+      [
+        "Liverpool",
+        1
+      ]
+    ],
+    "match_ids": [
+      18245
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2016/2017",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 2,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Juventus",
+        1
+      ],
+      [
+        "Real Madrid",
+        1
+      ]
+    ],
+    "match_ids": [
+      18244
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2015/2016",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 27,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Real Madrid",
+        1
+      ],
+      [
+        "Atl\u00e9tico Madrid",
+        1
+      ]
+    ],
+    "match_ids": [
+      18243
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2014/2015",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 26,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Juventus",
+        1
+      ],
+      [
+        "Barcelona",
+        1
+      ]
+    ],
+    "match_ids": [
+      18242
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2013/2014",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 25,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Real Madrid",
+        1
+      ],
+      [
+        "Atl\u00e9tico Madrid",
+        1
+      ]
+    ],
+    "match_ids": [
+      18241
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2012/2013",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 24,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Borussia Dortmund",
+        1
+      ],
+      [
+        "Bayern Munich",
+        1
+      ]
+    ],
+    "match_ids": [
+      18240
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2011/2012",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 23,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Bayern Munich",
+        1
+      ],
+      [
+        "Chelsea",
+        1
+      ]
+    ],
+    "match_ids": [
+      18237
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2010/2011",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 22,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        1
+      ],
+      [
+        "Manchester United",
+        1
+      ]
+    ],
+    "match_ids": [
+      18236
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2009/2010",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 21,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Bayern Munich",
+        1
+      ],
+      [
+        "Inter Milan",
+        1
+      ]
+    ],
+    "match_ids": [
+      18235
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2008/2009",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 41,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        1
+      ],
+      [
+        "Manchester United",
+        1
+      ]
+    ],
+    "match_ids": [
+      3750201
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2006/2007",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 39,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "AC Milan",
+        1
+      ],
+      [
+        "Liverpool",
+        1
+      ]
+    ],
+    "match_ids": [
+      3750200
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2004/2005",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 37,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "AC Milan",
+        1
+      ],
+      [
+        "Liverpool",
+        1
+      ]
+    ],
+    "match_ids": [
+      2302764
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "2003/2004",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 44,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "AS Monaco",
+        1
+      ],
+      [
+        "FC Porto",
+        1
+      ]
+    ],
+    "match_ids": [
+      3752619
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "1999/2000",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 76,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Fiorentina",
+        1
+      ],
+      [
+        "Manchester United",
+        1
+      ]
+    ],
+    "match_ids": [
+      3750240
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "1972/1973",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 277,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Ajax",
+        1
+      ],
+      [
+        "Juventus",
+        1
+      ]
+    ],
+    "match_ids": [
+      3888706
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "1971/1972",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 71,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Ajax",
+        1
+      ],
+      [
+        "Inter Milan",
+        1
+      ]
+    ],
+    "match_ids": [
+      3750235
+    ]
+  },
+  {
+    "competition": "Champions League",
+    "season": "1970/1971",
+    "gender": "male",
+    "competition_id": 16,
+    "season_id": 276,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Ajax",
+        1
+      ],
+      [
+        "Panathinaikos",
+        1
+      ]
+    ],
+    "match_ids": [
+      3888711
+    ]
+  },
+  {
+    "competition": "FIFA World Cup",
+    "season": "2022",
+    "gender": "male",
+    "competition_id": 43,
+    "season_id": 106,
+    "matches": 64,
+    "unique_teams": 32,
+    "most_represented_teams": [
+      [
+        "Croatia",
+        7
+      ],
+      [
+        "Morocco",
+        7
+      ],
+      [
+        "France",
+        7
+      ]
+    ],
+    "match_ids": [
+      3857276,
+      3857271,
+      3857296,
+      3857274,
+      3857255,
+      3857272,
+      3857278,
+      3857277,
+      3857273,
+      3857275,
+      3857261,
+      3857290,
+      3857298,
+      3857285,
+      3857282,
+      3857297,
+      3857294,
+      3857266,
+      3857284,
+      3857254,
+      3857265,
+      3857301,
+      3857268,
+      3857269,
+      3869321,
+      3857292,
+      3857295,
+      3869685,
+      3869684,
+      3857256,
+      3869151,
+      3857257,
+      3857258,
+      3857288,
+      3857267,
+      3857287,
+      3869486,
+      3857260,
+      3857264,
+      3857289,
+      3869254,
+      3869118,
+      3869519,
+      3869354,
+      3869552,
+      3869420,
+      3869220,
+      3869219,
+      3869253,
+      3869152,
+      3869117,
+      3857270,
+      3857263,
+      3857259,
+      3857283,
+      3857286,
+      3857300,
+      3857299,
+      3857293,
+      3857291,
+      3857281,
+      3857280,
+      3857279,
+      3857262
+    ]
+  },
+  {
+    "competition": "FIFA World Cup",
+    "season": "2018",
+    "gender": "male",
+    "competition_id": 43,
+    "season_id": 3,
+    "matches": 64,
+    "unique_teams": 32,
+    "most_represented_teams": [
+      [
+        "Belgium",
+        7
+      ],
+      [
+        "England",
+        7
+      ],
+      [
+        "France",
+        7
+      ]
+    ],
+    "match_ids": [
+      8650,
+      7584,
+      7554,
+      7539,
+      7550,
+      7538,
+      7534,
+      7543,
+      7544,
+      7546,
+      7545,
+      7585,
+      7569,
+      7572,
+      7561,
+      7540,
+      7531,
+      7570,
+      7586,
+      7557,
+      7542,
+      8656,
+      7548,
+      7578,
+      7553,
+      7536,
+      7555,
+      7576,
+      7565,
+      7551,
+      7537,
+      7580,
+      7581,
+      7549,
+      7529,
+      7562,
+      7571,
+      7568,
+      7530,
+      7558,
+      7583,
+      7547,
+      7535,
+      8649,
+      8658,
+      7582,
+      7552,
+      7532,
+      7560,
+      7533,
+      7564,
+      7579,
+      7577,
+      7525,
+      7566,
+      8651,
+      7567,
+      7541,
+      8655,
+      8657,
+      8652,
+      7563,
+      7556,
+      7559
+    ]
+  },
+  {
+    "competition": "FIFA World Cup",
+    "season": "1990",
+    "gender": "male",
+    "competition_id": 43,
+    "season_id": 55,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Brazil",
+        1
+      ],
+      [
+        "Argentina",
+        1
+      ]
+    ],
+    "match_ids": [
+      3793185
+    ]
+  },
+  {
+    "competition": "FIFA World Cup",
+    "season": "1986",
+    "gender": "male",
+    "competition_id": 43,
+    "season_id": 54,
+    "matches": 3,
+    "unique_teams": 4,
+    "most_represented_teams": [
+      [
+        "Argentina",
+        3
+      ],
+      [
+        "Belgium",
+        1
+      ],
+      [
+        "Germany",
+        1
+      ]
+    ],
+    "match_ids": [
+      3889148,
+      3889149,
+      3750191
+    ]
+  },
+  {
+    "competition": "FIFA World Cup",
+    "season": "1974",
+    "gender": "male",
+    "competition_id": 43,
+    "season_id": 51,
+    "matches": 6,
+    "unique_teams": 6,
+    "most_represented_teams": [
+      [
+        "Netherlands",
+        5
+      ],
+      [
+        "German DR",
+        2
+      ],
+      [
+        "Germany",
+        2
+      ]
+    ],
+    "match_ids": [
+      3888718,
+      3888720,
+      3888719,
+      3888717,
+      3888716,
+      3750180
+    ]
+  },
+  {
+    "competition": "FIFA World Cup",
+    "season": "1970",
+    "gender": "male",
+    "competition_id": 43,
+    "season_id": 272,
+    "matches": 6,
+    "unique_teams": 7,
+    "most_represented_teams": [
+      [
+        "Brazil",
+        6
+      ],
+      [
+        "England",
+        1
+      ],
+      [
+        "Peru",
+        1
+      ]
+    ],
+    "match_ids": [
+      3888700,
+      3889218,
+      3889217,
+      3888702,
+      3888701,
+      3888699
+    ]
+  },
+  {
+    "competition": "FIFA World Cup",
+    "season": "1962",
+    "gender": "male",
+    "competition_id": 43,
+    "season_id": 270,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Brazil",
+        1
+      ],
+      [
+        "Mexico",
+        1
+      ]
+    ],
+    "match_ids": [
+      3888854
+    ]
+  },
+  {
+    "competition": "FIFA World Cup",
+    "season": "1958",
+    "gender": "male",
+    "competition_id": 43,
+    "season_id": 269,
+    "matches": 2,
+    "unique_teams": 3,
+    "most_represented_teams": [
+      [
+        "Brazil",
+        2
+      ],
+      [
+        "Sweden",
+        1
+      ],
+      [
+        "France",
+        1
+      ]
+    ],
+    "match_ids": [
+      3888705,
+      3888704
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2020/2021",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 90,
+    "matches": 35,
+    "unique_teams": 19,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        35
+      ],
+      [
+        "Deportivo Alav\u00e9s",
+        2
+      ],
+      [
+        "Granada",
+        2
+      ]
+    ],
+    "match_ids": [
+      3773386,
+      3773565,
+      3773457,
+      3773631,
+      3773665,
+      3773497,
+      3773660,
+      3773593,
+      3773466,
+      3773585,
+      3773552,
+      3773672,
+      3773587,
+      3773656,
+      3773377,
+      3773586,
+      3773372,
+      3773387,
+      3773695,
+      3773369,
+      3773661,
+      3773597,
+      3773523,
+      3773571,
+      3773428,
+      3764661,
+      3773526,
+      3773474,
+      3773625,
+      3773403,
+      3773547,
+      3773415,
+      3764440,
+      3773689,
+      3773477
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2019/2020",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 42,
+    "matches": 33,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        33
+      ],
+      [
+        "Celta Vigo",
+        2
+      ],
+      [
+        "Villarreal",
+        2
+      ]
+    ],
+    "match_ids": [
+      303731,
+      303532,
+      303516,
+      303596,
+      303430,
+      303725,
+      303504,
+      303451,
+      303664,
+      303682,
+      303400,
+      303634,
+      303421,
+      303493,
+      303680,
+      303479,
+      303615,
+      303696,
+      303487,
+      303600,
+      303548,
+      303652,
+      303674,
+      303470,
+      303700,
+      303707,
+      303666,
+      303715,
+      303377,
+      303524,
+      303517,
+      303610,
+      303473
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2018/2019",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 4,
+    "matches": 34,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        34
+      ],
+      [
+        "Real Sociedad",
+        2
+      ],
+      [
+        "Legan\u00e9s",
+        2
+      ]
+    ],
+    "match_ids": [
+      15978,
+      15998,
+      16029,
+      16073,
+      16086,
+      16190,
+      16109,
+      16120,
+      16182,
+      16215,
+      16173,
+      16265,
+      15946,
+      16157,
+      16136,
+      16248,
+      16056,
+      16289,
+      16079,
+      16149,
+      16275,
+      15973,
+      16317,
+      16131,
+      16205,
+      16095,
+      16306,
+      16010,
+      15986,
+      16240,
+      16023,
+      16196,
+      15956,
+      16231
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2017/2018",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 1,
+    "matches": 36,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        36
+      ],
+      [
+        "RC Deportivo La Coru\u00f1a",
+        2
+      ],
+      [
+        "Las Palmas",
+        2
+      ]
+    ],
+    "match_ids": [
+      9880,
+      9912,
+      9924,
+      9855,
+      9827,
+      9799,
+      9636,
+      9609,
+      9575,
+      9928,
+      9736,
+      9742,
+      9765,
+      9661,
+      9592,
+      9870,
+      9783,
+      9700,
+      9860,
+      9695,
+      9794,
+      9717,
+      9673,
+      9650,
+      9620,
+      9837,
+      9811,
+      9642,
+      9774,
+      9602,
+      9948,
+      9682,
+      9581,
+      9726,
+      9754,
+      9889
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2016/2017",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 2,
+    "matches": 34,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        34
+      ],
+      [
+        "Real Madrid",
+        2
+      ],
+      [
+        "Sevilla",
+        2
+      ]
+    ],
+    "match_ids": [
+      267569,
+      266989,
+      266357,
+      267212,
+      266669,
+      266892,
+      267220,
+      267670,
+      266516,
+      267039,
+      266477,
+      267101,
+      266440,
+      266033,
+      267660,
+      266273,
+      267395,
+      266874,
+      266731,
+      266528,
+      266280,
+      267432,
+      267076,
+      267590,
+      267373,
+      267077,
+      266952,
+      267464,
+      266299,
+      266191,
+      265952,
+      267492,
+      267596,
+      267058
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2015/2016",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 27,
+    "matches": 380,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Real Madrid",
+        38
+      ],
+      [
+        "Levante UD",
+        38
+      ],
+      [
+        "Las Palmas",
+        38
+      ]
+    ],
+    "match_ids": [
+      3825739,
+      3825848,
+      3825895,
+      3825894,
+      3825855,
+      3825908,
+      3825883,
+      3825900,
+      3825902,
+      3825876,
+      3825846,
+      3825869,
+      3825882,
+      3825849,
+      3825860,
+      3825847,
+      3825817,
+      3825778,
+      3825777,
+      3825740,
+      3825875,
+      3825884,
+      3825842,
+      3825890,
+      3825871,
+      3825896,
+      3825841,
+      3825843,
+      3825839,
+      3825838,
+      3825840,
+      3825837,
+      3825836,
+      3825835,
+      3825834,
+      3825906,
+      3825897,
+      3825889,
+      3825833,
+      3825857,
+      3825863,
+      3825829,
+      3825830,
+      3825832,
+      3825831,
+      3825828,
+      3825827,
+      3825826,
+      3825825,
+      3825824,
+      3825823,
+      3825905,
+      3825822,
+      3825821,
+      3825820,
+      3825819,
+      3825818,
+      3825887,
+      3825907,
+      3825903,
+      3825816,
+      3825815,
+      3825858,
+      3825813,
+      3825814,
+      3825812,
+      3825811,
+      3825807,
+      3825809,
+      3825810,
+      3825808,
+      3825804,
+      3825867,
+      3825805,
+      3825784,
+      3825782,
+      3825757,
+      3825641,
+      3825803,
+      3825800,
+      3825801,
+      3825799,
+      3825797,
+      3825798,
+      3825796,
+      3825795,
+      3825793,
+      3825792,
+      3825794,
+      3825788,
+      3825791,
+      3825790,
+      3825787,
+      3825789,
+      3825786,
+      3825781,
+      3825785,
+      3825783,
+      3825780,
+      3825779,
+      3825773,
+      3825776,
+      3825775,
+      3825769,
+      3825770,
+      3825768,
+      3825736,
+      3825731,
+      3825685,
+      3825678,
+      3825643,
+      3825642,
+      3825638,
+      3825614,
+      3825612,
+      3825607,
+      3825595,
+      3825579,
+      3825572,
+      3825774,
+      3825772,
+      3825771,
+      3825767,
+      3825706,
+      3825712,
+      3825708,
+      3825707,
+      3825705,
+      3825711,
+      3825703,
+      3825700,
+      3825701,
+      3825702,
+      3825704,
+      3825891,
+      3825699,
+      3825697,
+      3825698,
+      3825694,
+      3825693,
+      3825696,
+      3825695,
+      3825689,
+      3825690,
+      3825692,
+      3825691,
+      3825688,
+      3825687,
+      3825683,
+      3825686,
+      3825684,
+      3825681,
+      3825682,
+      3825680,
+      3825677,
+      3825675,
+      3825676,
+      3825674,
+      3825673,
+      3825671,
+      3825672,
+      3825670,
+      3825669,
+      3825668,
+      3825666,
+      3825665,
+      3825667,
+      3825664,
+      3825662,
+      3825888,
+      3825663,
+      3825659,
+      3825658,
+      3825660,
+      3825661,
+      3825656,
+      3825657,
+      3825652,
+      3825623,
+      3825626,
+      3825616,
+      3825608,
+      3825601,
+      3825899,
+      3825852,
+      3825647,
+      3825637,
+      3825628,
+      3825619,
+      3825618,
+      3825611,
+      3825609,
+      3825598,
+      3825584,
+      3825570,
+      3825562,
+      3825904,
+      3825901,
+      3825898,
+      3825893,
+      3825892,
+      3825886,
+      3825885,
+      3825881,
+      3825880,
+      3825879,
+      3825878,
+      3825877,
+      3825874,
+      3825873,
+      3825872,
+      3825870,
+      3825868,
+      3825866,
+      3825865,
+      3825864,
+      3825862,
+      3825861,
+      3825859,
+      3825856,
+      3825854,
+      3825853,
+      3825851,
+      3825850,
+      3825845,
+      3825844,
+      3825806,
+      3825802,
+      3825679,
+      3825655,
+      3825654,
+      3825653,
+      3825651,
+      3825650,
+      3825649,
+      3825648,
+      3825765,
+      3825766,
+      3825764,
+      3825760,
+      3825763,
+      3825761,
+      3825762,
+      3825759,
+      3825758,
+      3825756,
+      3825755,
+      3825754,
+      3825750,
+      3825752,
+      3825751,
+      3825753,
+      3825749,
+      3825747,
+      3825748,
+      3825745,
+      3825746,
+      3825743,
+      3825744,
+      3825742,
+      3825741,
+      3825738,
+      3825737,
+      3825734,
+      3825733,
+      3825732,
+      3825735,
+      3825729,
+      3825728,
+      3825730,
+      3825727,
+      3825723,
+      3825726,
+      3825725,
+      3825724,
+      3825722,
+      3825716,
+      3825719,
+      3825720,
+      3825717,
+      3825721,
+      3825718,
+      3825715,
+      3825714,
+      3825713,
+      3825710,
+      3825709,
+      3825646,
+      3825645,
+      3825644,
+      3825640,
+      3825639,
+      3825636,
+      3825635,
+      3825634,
+      3825633,
+      3825632,
+      3825631,
+      3825630,
+      3825629,
+      3825627,
+      3825625,
+      3825624,
+      3825622,
+      3825621,
+      3825620,
+      3825617,
+      3825615,
+      3825613,
+      3825610,
+      3825606,
+      3825605,
+      3825604,
+      3825603,
+      3825602,
+      3825600,
+      3825599,
+      3825597,
+      3825596,
+      3825594,
+      3825593,
+      3825592,
+      3825591,
+      3825590,
+      3825589,
+      3825588,
+      3825587,
+      3825586,
+      3825585,
+      3825583,
+      3825582,
+      3825581,
+      3825580,
+      3825578,
+      3825577,
+      3825576,
+      3825575,
+      3825574,
+      3825573,
+      3825571,
+      3825569,
+      3825568,
+      3825567,
+      3825566,
+      3825565,
+      3825564,
+      3825563,
+      266498,
+      266986,
+      267533,
+      266310,
+      267576,
+      266653,
+      265944,
+      265894,
+      265958,
+      267611,
+      267422,
+      266236,
+      267274,
+      266961,
+      266885,
+      266815,
+      267506,
+      266664,
+      266106,
+      266670,
+      266149,
+      266620,
+      266056,
+      267327,
+      266166,
+      266160,
+      265839,
+      266424,
+      266467,
+      267273,
+      266490,
+      266254,
+      266557
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2014/2015",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 26,
+    "matches": 38,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        38
+      ],
+      [
+        "M\u00e1laga",
+        2
+      ],
+      [
+        "Getafe",
+        2
+      ]
+    ],
+    "match_ids": [
+      267183,
+      265835,
+      266838,
+      265963,
+      266117,
+      266916,
+      267197,
+      70264,
+      70273,
+      267301,
+      265896,
+      265866,
+      267400,
+      266406,
+      267085,
+      267561,
+      266148,
+      266045,
+      70303,
+      266240,
+      267597,
+      266794,
+      267343,
+      266631,
+      266320,
+      266230,
+      266525,
+      266560,
+      266846,
+      266531,
+      266921,
+      267499,
+      266741,
+      266871,
+      266967,
+      266929,
+      266770,
+      266142
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2013/2014",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 25,
+    "matches": 31,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        31
+      ],
+      [
+        "Valencia",
+        2
+      ],
+      [
+        "Rayo Vallecano",
+        2
+      ]
+    ],
+    "match_ids": [
+      266066,
+      267368,
+      70301,
+      70298,
+      70302,
+      70291,
+      267138,
+      267520,
+      70289,
+      267675,
+      70288,
+      266074,
+      267567,
+      266201,
+      266274,
+      70293,
+      265918,
+      70277,
+      70283,
+      70306,
+      266256,
+      266613,
+      266491,
+      265830,
+      265857,
+      266883,
+      266603,
+      265837,
+      266462,
+      267192,
+      266420
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2012/2013",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 24,
+    "matches": 32,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        32
+      ],
+      [
+        "Valencia",
+        2
+      ],
+      [
+        "Real Madrid",
+        2
+      ]
+    ],
+    "match_ids": [
+      70263,
+      266015,
+      70270,
+      70281,
+      70308,
+      70282,
+      266724,
+      70272,
+      70304,
+      70280,
+      70296,
+      70297,
+      266433,
+      70256,
+      70259,
+      70260,
+      70276,
+      70287,
+      70284,
+      70275,
+      70286,
+      70309,
+      70300,
+      70295,
+      70307,
+      70305,
+      266827,
+      267502,
+      70271,
+      70294,
+      70262,
+      70292
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2011/2012",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 23,
+    "matches": 37,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        37
+      ],
+      [
+        "Real Zaragoza",
+        2
+      ],
+      [
+        "Atl\u00e9tico Madrid",
+        2
+      ]
+    ],
+    "match_ids": [
+      70220,
+      69328,
+      69329,
+      70219,
+      69331,
+      69337,
+      69322,
+      69316,
+      69332,
+      69335,
+      69330,
+      69297,
+      69325,
+      69324,
+      70225,
+      69293,
+      70223,
+      69333,
+      69264,
+      69343,
+      69340,
+      69265,
+      69319,
+      69334,
+      69327,
+      69315,
+      69336,
+      69326,
+      69268,
+      69320,
+      69312,
+      69314,
+      69318,
+      69338,
+      70224,
+      70221,
+      69323
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2010/2011",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 22,
+    "matches": 33,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        33
+      ],
+      [
+        "Villarreal",
+        2
+      ],
+      [
+        "Osasuna",
+        2
+      ]
+    ],
+    "match_ids": [
+      69276,
+      69304,
+      69307,
+      69271,
+      69305,
+      69278,
+      69275,
+      69295,
+      69270,
+      69303,
+      69245,
+      69287,
+      69296,
+      69260,
+      69269,
+      69246,
+      69302,
+      69282,
+      69274,
+      69283,
+      69280,
+      69286,
+      69291,
+      69236,
+      69234,
+      69272,
+      69308,
+      69299,
+      69300,
+      69289,
+      69263,
+      69306,
+      69248
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2009/2010",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 21,
+    "matches": 35,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        35
+      ],
+      [
+        "Sevilla",
+        2
+      ],
+      [
+        "Osasuna",
+        2
+      ]
+    ],
+    "match_ids": [
+      69238,
+      69243,
+      69241,
+      69239,
+      69257,
+      69253,
+      69244,
+      69277,
+      69229,
+      69219,
+      69218,
+      69250,
+      69242,
+      69256,
+      69298,
+      69259,
+      69224,
+      69210,
+      69220,
+      69237,
+      69226,
+      69252,
+      69255,
+      69214,
+      69262,
+      69240,
+      69233,
+      69213,
+      69267,
+      69288,
+      69254,
+      69292,
+      69227,
+      69247,
+      69221
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2008/2009",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 41,
+    "matches": 31,
+    "unique_teams": 19,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        31
+      ],
+      [
+        "Espanyol",
+        2
+      ],
+      [
+        "Sporting Gij\u00f3n",
+        2
+      ]
+    ],
+    "match_ids": [
+      69222,
+      69225,
+      69189,
+      69211,
+      69138,
+      69212,
+      69235,
+      69232,
+      69216,
+      69209,
+      69231,
+      69217,
+      69273,
+      69223,
+      69195,
+      69251,
+      69185,
+      69142,
+      69139,
+      69171,
+      69249,
+      69215,
+      69147,
+      69177,
+      69207,
+      69228,
+      69183,
+      69279,
+      69285,
+      69230,
+      69149
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2007/2008",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 40,
+    "matches": 27,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        27
+      ],
+      [
+        "Sevilla",
+        2
+      ],
+      [
+        "Levante UD",
+        2
+      ]
+    ],
+    "match_ids": [
+      69146,
+      69151,
+      69144,
+      69169,
+      68360,
+      69186,
+      69180,
+      69181,
+      68365,
+      69178,
+      68364,
+      69170,
+      68359,
+      68356,
+      69158,
+      69187,
+      68363,
+      69166,
+      68366,
+      69148,
+      69184,
+      69173,
+      69182,
+      68358,
+      68361,
+      69141,
+      69145
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2006/2007",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 39,
+    "matches": 26,
+    "unique_teams": 20,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        26
+      ],
+      [
+        "Real Zaragoza",
+        2
+      ],
+      [
+        "Sevilla",
+        2
+      ]
+    ],
+    "match_ids": [
+      68336,
+      69176,
+      69179,
+      68334,
+      68333,
+      68326,
+      69162,
+      68335,
+      68332,
+      68330,
+      68329,
+      68341,
+      69165,
+      69155,
+      69154,
+      69156,
+      69159,
+      69175,
+      69160,
+      68331,
+      68328,
+      68340,
+      69174,
+      68347,
+      68327,
+      69157
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2005/2006",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 38,
+    "matches": 17,
+    "unique_teams": 17,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        17
+      ],
+      [
+        "Real Zaragoza",
+        2
+      ],
+      [
+        "C\u00e1diz",
+        1
+      ]
+    ],
+    "match_ids": [
+      68323,
+      68318,
+      69172,
+      68322,
+      69164,
+      68324,
+      68320,
+      68339,
+      68348,
+      68354,
+      68351,
+      68317,
+      68350,
+      68325,
+      68321,
+      68319,
+      68342
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "2004/2005",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 37,
+    "matches": 7,
+    "unique_teams": 7,
+    "most_represented_teams": [
+      [
+        "Barcelona",
+        7
+      ],
+      [
+        "Albacete",
+        2
+      ],
+      [
+        "Espanyol",
+        1
+      ]
+    ],
+    "match_ids": [
+      68314,
+      68353,
+      68316,
+      68313,
+      68315,
+      69153,
+      68352
+    ]
+  },
+  {
+    "competition": "La Liga",
+    "season": "1973/1974",
+    "gender": "male",
+    "competition_id": 11,
+    "season_id": 278,
+    "matches": 1,
+    "unique_teams": 2,
+    "most_represented_teams": [
+      [
+        "Real Madrid",
+        1
+      ],
+      [
+        "Barcelona",
+        1
+      ]
+    ],
+    "match_ids": [
+      3888713
+    ]
+  }
+]

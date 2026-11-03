@@ -1,0 +1,2 @@
+# Keep archived artifacts byte-stable across Windows and Linux clones; do not normalize line endings.
+* -text

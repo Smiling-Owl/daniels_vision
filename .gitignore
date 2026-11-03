@@ -1,0 +1,43 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter and test/type/lint caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local credentials and secrets
+.env
+.env.*
+!.env.example
+.secrets/
+*.secret
+
+# Temporary and operating-system files
+*.tmp
+*.temp
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+
+# StatsBomb source data and the complete locally derived dataset
+/data/raw/
+/data/processed/
+
+# Fitted models can serialize training examples (notably KNN)
+/models/**/*.joblib
+
+# Per-shot predictions and example-level exports; keep aggregate tables
+/reports/tables/*predictions.csv
+/reports/tables/phase09_example_shots.csv
+/reports/tables/el_clasico_shots.csv
+/reports/tables/report_template_classified_samples.csv

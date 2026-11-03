@@ -1,0 +1,55 @@
+{
+  "status": "predeclared_nested_sigmoid_calibration_protocol",
+  "scope": "development on locked training partition; test is inaccessible until frozen selection",
+  "source_shot_csv_sha256": "8d816beff3683f38bbe071d2570a2d167b85b0bdf432216622c2a15048fc3ea0",
+  "phase7_protocol_sha256": "13496fe09cd37b7d833a0d6f335abd0c3359691230ac7165ef886eb5bbd97caa",
+  "phase7_report_sha256": "c121adcc80bc4e2c3c2b116c556e9cb5875ead80b71f396d22e2bcabb80ab382",
+  "phase7_model_manifest_sha256": "18dd3e5800d380fedbbfa32f0729a446bf51fb2b6ccb9612335604d6d8f425db",
+  "phase7_oof_sha256": "77eba0a6a27608a504582e6e96a50f1c224508a47a347bb25a4db910076ddd19",
+  "holdout_manifest_sha256": "a13333d293a42a1b00d6f2d5a53d7893aae80efaaf4f881240c2994809661081",
+  "cv_manifest_sha256": "b20ad92440a5a38d13ed896291e9e014e7923b6ce73e6aca9f1b3e1b5855bcf8",
+  "cv_membership_sha256": "adbf280606b59a47b83288afaba60c3432fa111752f424f90c84682fb2adfab5",
+  "model_contract_sha256": "863f1865be25468f4805353db9f0fb4301339de2791fd04a9ac8488bbf66ca98",
+  "outer_folds": 10,
+  "inner_folds": 5,
+  "seed": 42,
+  "inner_splitter": "StratifiedGroupKFold(shuffle=True, random_state=42)",
+  "calibration": {
+    "method": "sigmoid",
+    "ensemble": false,
+    "n_jobs": 1
+  },
+  "raw_model_families": [
+    "knn_50",
+    "gaussian_nb",
+    "logistic_regression"
+  ],
+  "variants": [
+    "prior_baseline",
+    "knn_50_raw",
+    "gaussian_nb_raw",
+    "logistic_regression_raw",
+    "knn_50_sigmoid",
+    "gaussian_nb_sigmoid",
+    "logistic_regression_sigmoid"
+  ],
+  "threshold": 0.5,
+  "threshold_rule": "predict goal when P(goal) >= 0.5",
+  "family_selection_rule": "For each KNN, GaussianNB, and logistic-regression family, choose sigmoid calibration only when its nested pooled training OOF log loss is strictly lower than the raw model; ties choose raw.",
+  "global_candidate_rule": "Among the three family-selected variants, choose the lowest pooled nested training OOF log loss; exact ties break by variant name. This is a development candidate, not an unbiased final estimate.",
+  "prohibited": [
+    "test-informed selection",
+    "threshold search",
+    "hyperparameter tuning",
+    "SMOTE",
+    "class weighting",
+    "test-based recalibration"
+  ],
+  "versions": {
+    "python": "3.14.7",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0"
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "project_tests_passed": 59,
+  "notebook_code_cells_executed": [
+    1,
+    3,
+    5,
+    6,
+    8
+  ],
+  "selection_hash_before_test": "c6ce4779199cd4ee65737ec85c8a91ef6d8588a94eaa4a07fbc0484b99d6044c",
+  "selection_unchanged_after_evaluation": true,
+  "first_test_evaluation_in_this_check": true,
+  "deterministic_phase8_artifacts": {
+    "reports\\tables\\phase08_development_metrics.csv": "2e01bbba4ee94ad40815f64af95bb480c6320fa1e8acc7f3057cc67aabb28c13",
+    "reports\\tables\\phase08_development_predictions.csv": "a0f2d930f72144c1b080ad8b787179dcf5f743f593285a352c15c58b3e696960",
+    "reports\\tables\\phase08_development_reliability_bins.csv": "9cfef040cfb3f76faff5d46ae2ff9a0f2ccdd3654bdd12ffca8b441e9350d72a",
+    "reports\\tables\\phase08_fold_metrics.csv": "66ecc21ca70d2e318ccb835651cacbdd43a8e4bde16e8962e1f7aeb1b9a0c374",
+    "reports\\tables\\phase08_test_metrics.csv": "14f7e5279bb1427f1f0eef6d0caef8107a259b8391c752acd2a760d5ebca2bcf",
+    "reports\\tables\\phase08_test_predictions.csv": "c85ccb9eb3c1d881f75c9f97304895949eb2173978e09152180f731ac64d7507",
+    "reports\\tables\\phase08_test_reliability_bins.csv": "972bf907f06513eb159505a3aa8934603fe7aa159bf6ea43cdff8fffb6da48be",
+    "reports\\tables\\phase08_training_metrics.csv": "e0cdccb330ccd05ff2edc28b230d5b1fbfd8b569a726a43e5bf2d69f11b3d058",
+    "reports\\figures\\phase08_development_reliability.png": "1a11d2e686597283f633a33af1131f43d4d10bf29025cd29172ae3cc8cb55cc1",
+    "reports\\figures\\phase08_test_confusion_matrices.png": "bb88b2c5e4c831298c44855dcd0d90689dd30949f3e4dd49a7cace88a36a43ef",
+    "reports\\figures\\phase08_test_reliability.png": "3165117abcbd6cf8005b22879c9637d8ee9dbb0357b2b5ff1a49b0c65406f543",
+    "models\\phase08\\gaussian_nb_sigmoid.joblib": "731add8d67a680dc639d2cecf0c2c381b1d8ea620d45cb0792683231456df60e",
+    "models\\phase08\\knn_50_sigmoid.joblib": "6e135df5c50ca846cbd67c52c1ea9defd8bc69fc5ee40ef812371856c350b092",
+    "models\\phase08\\logistic_regression_sigmoid.joblib": "edec85d72f701f0ebe3ef95ae34232195bdcbb8adb05fe1a5ce8d8f9d82a1480",
+    "models\\phase08\\manifest.json": "686840dc4250e01bd41b7760dd2e8e3720bc24317c15db7e14a9aaa5ab068908",
+    "docs\\phase_08_protocol.json": "74401d90316affa7c0101c9a98fc7d73c24b53a0d5cf07638113ed7a4d34d4c9",
+    "docs\\phase_08_selection.json": "c6ce4779199cd4ee65737ec85c8a91ef6d8588a94eaa4a07fbc0484b99d6044c",
+    "docs\\phase_08_development_report.json": "b8aaf78f8863b3e9a70e78138c5406717aaaf411cebe5c2abc853c39b858f5d1",
+    "docs\\phase_08_test_report.json": "b429623b2dddc02180355fb1f983d020f9ab3104df581d30af3471fe8309cfa7"
+  },
+  "protected_files_unchanged": {
+    "docs\\cv_manifest.json": "b20ad92440a5a38d13ed896291e9e014e7923b6ce73e6aca9f1b3e1b5855bcf8",
+    "data\\processed\\cv_membership.csv": "adbf280606b59a47b83288afaba60c3432fa111752f424f90c84682fb2adfab5",
+    "docs\\model_columns.json": "863f1865be25468f4805353db9f0fb4301339de2791fd04a9ac8488bbf66ca98",
+    "models\\phase07\\knn_50.joblib": "8a0fc40fe2b80f70c6c4db8a76dab0d6514d1ba773a4e27135c41d94b248f512",
+    "data\\processed\\shots.csv": "8d816beff3683f38bbe071d2570a2d167b85b0bdf432216622c2a15048fc3ea0",
+    "docs\\split_manifest.json": "a13333d293a42a1b00d6f2d5a53d7893aae80efaaf4f881240c2994809661081",
+    "models\\phase07\\gaussian_nb.joblib": "b7d4e48a89c833b4223fd08f59087e5e05cb5ba149f189c0b6eea31166ab105b",
+    "reports\\tables\\phase07_oof_predictions.csv": "77eba0a6a27608a504582e6e96a50f1c224508a47a347bb25a4db910076ddd19",
+    "docs\\phase_07_protocol.json": "13496fe09cd37b7d833a0d6f335abd0c3359691230ac7165ef886eb5bbd97caa",
+    "models\\phase07\\logistic_regression.joblib": "3904e100799c5b3211cc7512af973852fa8c7bb4e42c01b0af5f61d436a29595",
+    "models\\phase07\\manifest.json": "18dd3e5800d380fedbbfa32f0729a446bf51fb2b6ccb9612335604d6d8f425db",
+    "models\\phase07\\prior_baseline.joblib": "cd3a9e2f37c2b9c550bfd90a2b28076d434b4dc981e98565e31fba0c6cff045f",
+    "data\\processed\\split_membership.csv": "6f440ba578677f9d0eb2f343960285fb1d006d864490cf1a40c868a06e1c2cc7",
+    "docs\\phase_07_model_report.json": "c121adcc80bc4e2c3c2b116c556e9cb5875ead80b71f396d22e2bcabb80ab382",
+    "reports\\tables\\phase07_fold_metrics.csv": "ee158d0562217e363f366586582f13f5385b43589699967cf8e5f30ea473f40f",
+    "reports\\tables\\phase07_model_comparison.csv": "6edd1fd2fddf9784c94140086fbfe9f0046c871a1fd5f4e90c56b9b458a9b6fc",
+    "reports\\tables\\phase07_training_predictions.csv": "723b7ab16545a138102a353a08e3df60a7af91d40d068a92fe54c8af38d814d1",
+    "reports\\figures\\phase07_model_comparison.png": "f9ce876d853112c75b9df37a2f53036d8f50401ced955b41484fa87ff8f0308f",
+    "reports\\figures\\phase07_oof_confusion_matrices.png": "ae98492ec5c2f6ccd012dddd5e1f37b6432d5c484806f40b0b876d3bd09bee97"
+  },
+  "saved_prediction_checks": {
+    "development": {
+      "variants": 7,
+      "prediction_rows": 51338,
+      "metrics_recomputed": true
+    },
+    "test": {
+      "variants": 7,
+      "prediction_rows": 12838,
+      "metrics_recomputed": true
+    }
+  },
+  "selection_rule_reproduced_from_training_only_metrics": true,
+  "visual_review": "passed: all three exported figures inspected; scopes, count histograms, legends, confusion counts, and labels readable",
+  "learner_vscode_checkpoint": "pending",
+  "test_match_boundary_check": "passed: all seven variants cover exactly the 76 locked test matches and no training matches",
+  "reliability_bin_checks": "passed: ten bins per variant, total counts and goals preserved, weighted means agree, empty rates undefined"
+}

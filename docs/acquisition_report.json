@@ -1,0 +1,22 @@
+{
+  "status": "verified",
+  "verified_at_utc": "2026-10-22T09:07:20+00:00",
+  "repository": "https://github.com/hudl/open-data",
+  "commit": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "competition_id": 11,
+  "season_id": 27,
+  "matches": 380,
+  "teams": 20,
+  "matches_per_team": 38,
+  "event_files": 380,
+  "events": 1295354,
+  "source_files": 384,
+  "source_bytes": 1122501352,
+  "manifest_sha256": "37df81c7621c3066b1ed205fadd9949b07183130d464c8b1c6b045e322a4ce83",
+  "raw_directory": "data/raw/statsbomb/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "acquisition_tests_passed": 10,
+  "notebook_code_cells_passed": true,
+  "notebook_interactive_display": "pending user run in VS Code",
+  "offline_verification_passed": true,
+  "note": "Event count includes all event types and is not a shot count."
+}

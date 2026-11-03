@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "notebook_code_cells_passed": true,
+  "csv_rebuild_identical": true,
+  "csv_sha256": {
+    "shots.csv": "8d816beff3683f38bbe071d2570a2d167b85b0bdf432216622c2a15048fc3ea0",
+    "goal_reconciliation.csv": "52cfeba37125bc8e5baa98abb27ac91f99758e7a80b25c089531adfd44af9607",
+    "own_goals.csv": "c068cf3c37a86f74abe4bf4381d0b640bd4db227485783f486b2ffef3e8a3707"
+  },
+  "full_project_tests_passed": 23,
+  "independent_source_audit_counts_agree": true,
+  "off_camera_counts": {
+    "absent": 9152,
+    "true": 16
+  },
+  "interactive_notebook_display": "pending user run in VS Code"
+}

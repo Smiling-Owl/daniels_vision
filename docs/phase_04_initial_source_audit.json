@@ -1,0 +1,794 @@
+{
+  "counts": {
+    "shots": 9168,
+    "Own Goal For": 29,
+    "Own Goal Against": 29
+  },
+  "missing": {},
+  "shot_fields": {
+    "statsbomb_xg": 9168,
+    "end_location": 9168,
+    "key_pass_id": 6485,
+    "technique": 9168,
+    "body_part": 9168,
+    "type": 9168,
+    "outcome": 9168,
+    "freeze_frame": 9087,
+    "one_on_one": 548,
+    "open_goal": 112,
+    "aerial_won": 848,
+    "first_time": 3049,
+    "deflected": 109,
+    "saved_off_target": 35,
+    "redirect": 18,
+    "saved_to_post": 33,
+    "follows_dribble": 5
+  },
+  "event_fields": {
+    "id": 9168,
+    "index": 9168,
+    "period": 9168,
+    "timestamp": 9168,
+    "minute": 9168,
+    "second": 9168,
+    "type": 9168,
+    "possession": 9168,
+    "possession_team": 9168,
+    "play_pattern": 9168,
+    "team": 9168,
+    "player": 9168,
+    "position": 9168,
+    "location": 9168,
+    "duration": 9168,
+    "under_pressure": 1822,
+    "related_events": 9168,
+    "shot": 9168,
+    "out": 254,
+    "off_camera": 16
+  },
+  "values": {
+    "outcome": {
+      "Blocked": 2081,
+      "Goal": 1014,
+      "Off T": 2981,
+      "Saved": 2216,
+      "Wayward": 599,
+      "Post": 209,
+      "Saved Off Target": 35,
+      "Saved to Post": 33
+    },
+    "body_part": {
+      "Left Foot": 2973,
+      "Head": 1495,
+      "Right Foot": 4682,
+      "Other": 18
+    },
+    "type": {
+      "Open Play": 8661,
+      "Free Kick": 409,
+      "Penalty": 97,
+      "Corner": 1
+    },
+    "technique": {
+      "Normal": 6784,
+      "Half Volley": 1483,
+      "Overhead Kick": 62,
+      "Volley": 633,
+      "Backheel": 41,
+      "Lob": 125,
+      "Diving Header": 40
+    },
+    "period": {
+      "1": 4116,
+      "2": 5052
+    },
+    "under_pressure": {
+      "True": 1822,
+      "None": 7346
+    },
+    "first_time": {
+      "None": 6119,
+      "True": 3049
+    },
+    "one_on_one": {
+      "None": 8620,
+      "True": 548
+    },
+    "open_goal": {
+      "None": 9056,
+      "True": 112
+    },
+    "play_pattern": {
+      "From Keeper": 134,
+      "From Corner": 1527,
+      "Regular Play": 3062,
+      "From Throw In": 1605,
+      "From Free Kick": 1913,
+      "From Goal Kick": 319,
+      "From Counter": 400,
+      "From Kick Off": 99,
+      "Other": 109
+    }
+  },
+  "location_range": {
+    "x": [
+      50.3,
+      120.0
+    ],
+    "y": [
+      0.7,
+      78.8
+    ]
+  },
+  "duplicate_ids": [],
+  "goal_mismatches": [],
+  "own_goal_matches": [
+    {
+      "match_id": 3825842,
+      "official": [
+        2,
+        2
+      ],
+      "shot_goals": [
+        1,
+        2
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        2,
+        2
+      ]
+    },
+    {
+      "match_id": 3825839,
+      "official": [
+        2,
+        1
+      ],
+      "shot_goals": [
+        1,
+        1
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        2,
+        1
+      ]
+    },
+    {
+      "match_id": 3825823,
+      "official": [
+        1,
+        2
+      ],
+      "shot_goals": [
+        1,
+        1
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        1,
+        2
+      ]
+    },
+    {
+      "match_id": 3825822,
+      "official": [
+        2,
+        1
+      ],
+      "shot_goals": [
+        1,
+        1
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        2,
+        1
+      ]
+    },
+    {
+      "match_id": 3825816,
+      "official": [
+        4,
+        2
+      ],
+      "shot_goals": [
+        3,
+        2
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        4,
+        2
+      ]
+    },
+    {
+      "match_id": 3825804,
+      "official": [
+        3,
+        3
+      ],
+      "shot_goals": [
+        3,
+        2
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        3,
+        3
+      ]
+    },
+    {
+      "match_id": 3825757,
+      "official": [
+        6,
+        0
+      ],
+      "shot_goals": [
+        5,
+        0
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        6,
+        0
+      ]
+    },
+    {
+      "match_id": 3825799,
+      "official": [
+        1,
+        2
+      ],
+      "shot_goals": [
+        1,
+        1
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        1,
+        2
+      ]
+    },
+    {
+      "match_id": 3825798,
+      "official": [
+        1,
+        3
+      ],
+      "shot_goals": [
+        1,
+        2
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        1,
+        3
+      ]
+    },
+    {
+      "match_id": 3825795,
+      "official": [
+        3,
+        0
+      ],
+      "shot_goals": [
+        2,
+        0
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        3,
+        0
+      ]
+    },
+    {
+      "match_id": 3825790,
+      "official": [
+        2,
+        4
+      ],
+      "shot_goals": [
+        2,
+        3
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        2,
+        4
+      ]
+    },
+    {
+      "match_id": 3825707,
+      "official": [
+        4,
+        1
+      ],
+      "shot_goals": [
+        3,
+        1
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        4,
+        1
+      ]
+    },
+    {
+      "match_id": 3825673,
+      "official": [
+        0,
+        2
+      ],
+      "shot_goals": [
+        0,
+        1
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        0,
+        2
+      ]
+    },
+    {
+      "match_id": 3825669,
+      "official": [
+        1,
+        1
+      ],
+      "shot_goals": [
+        0,
+        1
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        1,
+        1
+      ]
+    },
+    {
+      "match_id": 3825665,
+      "official": [
+        2,
+        0
+      ],
+      "shot_goals": [
+        1,
+        0
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        2,
+        0
+      ]
+    },
+    {
+      "match_id": 3825662,
+      "official": [
+        2,
+        0
+      ],
+      "shot_goals": [
+        1,
+        0
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        2,
+        0
+      ]
+    },
+    {
+      "match_id": 3825623,
+      "official": [
+        3,
+        0
+      ],
+      "shot_goals": [
+        2,
+        0
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        3,
+        0
+      ]
+    },
+    {
+      "match_id": 3825611,
+      "official": [
+        3,
+        0
+      ],
+      "shot_goals": [
+        2,
+        0
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        3,
+        0
+      ]
+    },
+    {
+      "match_id": 3825881,
+      "official": [
+        1,
+        1
+      ],
+      "shot_goals": [
+        1,
+        0
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        1,
+        1
+      ]
+    },
+    {
+      "match_id": 3825880,
+      "official": [
+        2,
+        1
+      ],
+      "shot_goals": [
+        1,
+        1
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        2,
+        1
+      ]
+    },
+    {
+      "match_id": 3825648,
+      "official": [
+        1,
+        0
+      ],
+      "shot_goals": [
+        0,
+        0
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        1,
+        0
+      ]
+    },
+    {
+      "match_id": 3825747,
+      "official": [
+        5,
+        2
+      ],
+      "shot_goals": [
+        4,
+        2
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        5,
+        2
+      ]
+    },
+    {
+      "match_id": 3825600,
+      "official": [
+        0,
+        1
+      ],
+      "shot_goals": [
+        0,
+        0
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        0,
+        1
+      ]
+    },
+    {
+      "match_id": 3825585,
+      "official": [
+        3,
+        3
+      ],
+      "shot_goals": [
+        3,
+        2
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        3,
+        3
+      ]
+    },
+    {
+      "match_id": 266498,
+      "official": [
+        6,
+        0
+      ],
+      "shot_goals": [
+        5,
+        0
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        6,
+        0
+      ]
+    },
+    {
+      "match_id": 266106,
+      "official": [
+        2,
+        2
+      ],
+      "shot_goals": [
+        1,
+        2
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        2,
+        2
+      ]
+    },
+    {
+      "match_id": 267327,
+      "official": [
+        4,
+        0
+      ],
+      "shot_goals": [
+        3,
+        0
+      ],
+      "own_goal_against": [
+        0,
+        1
+      ],
+      "own_goal_for": [
+        1,
+        0
+      ],
+      "reconciled": [
+        4,
+        0
+      ]
+    },
+    {
+      "match_id": 266160,
+      "official": [
+        0,
+        2
+      ],
+      "shot_goals": [
+        0,
+        1
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        0,
+        2
+      ]
+    },
+    {
+      "match_id": 266557,
+      "official": [
+        1,
+        2
+      ],
+      "shot_goals": [
+        1,
+        1
+      ],
+      "own_goal_against": [
+        1,
+        0
+      ],
+      "own_goal_for": [
+        0,
+        1
+      ],
+      "reconciled": [
+        1,
+        2
+      ]
+    }
+  ]
+}

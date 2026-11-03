@@ -1,0 +1,143 @@
+{
+  "dataset": "La Liga 2015/2016 StatsBomb shot events",
+  "source": {
+    "repository": "https://github.com/hudl/open-data",
+    "commit": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+    "specification": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb/doc/StatsBomb%20Open%20Data%20Specification%20v1.1.pdf",
+    "specification_note": "Appendix 2, p. 34: 120 x 80 coordinate frame; attacked goal at (120, 40), posts at (120, 36) and (120, 44)."
+  },
+  "target": {
+    "column": "is_goal",
+    "type": "binary",
+    "positive_class": 1,
+    "negative_class": 0,
+    "definition": "1 only for shot outcome Goal; 0 for other recognized shot outcomes."
+  },
+  "group_column": "match_id",
+  "grouping_note": "Use match_id to keep all shots from the same match together in future train/test splitting and cross-validation.",
+  "features": [
+    {
+      "column": "distance_sb_units",
+      "type": "numeric",
+      "definition": "Euclidean distance from shot location to (120, 40), in native StatsBomb coordinate units; not metres."
+    },
+    {
+      "column": "angle_sb_radians",
+      "type": "numeric",
+      "definition": "Unsigned angle in radians subtended by the two goalposts from the shot location."
+    },
+    {
+      "column": "body_part",
+      "type": "categorical",
+      "definition": "StatsBomb shot body-part name."
+    },
+    {
+      "column": "shot_type",
+      "type": "categorical",
+      "definition": "StatsBomb shot type name."
+    },
+    {
+      "column": "technique",
+      "type": "categorical",
+      "definition": "StatsBomb shot technique name."
+    },
+    {
+      "column": "play_pattern",
+      "type": "categorical",
+      "definition": "StatsBomb play-pattern name for the event."
+    },
+    {
+      "column": "under_pressure",
+      "type": "binary",
+      "definition": "True if the provider flagged pressure; otherwise False means NOT FLAGGED."
+    },
+    {
+      "column": "first_time",
+      "type": "binary",
+      "definition": "True if the provider flagged a first-time shot; otherwise False means NOT FLAGGED."
+    },
+    {
+      "column": "open_goal",
+      "type": "binary",
+      "definition": "True if the provider flagged an open goal; otherwise False means NOT FLAGGED."
+    }
+  ],
+  "reference_only": [
+    {
+      "column": "statsbomb_xg",
+      "role": "external_probability_reference",
+      "definition": "StatsBomb's supplied xG; retained for comparison only, never a model input or ground truth."
+    },
+    {
+      "column": "shot_outcome",
+      "role": "label_audit",
+      "definition": "Original outcome label retained for audit; is_goal is derived from it."
+    }
+  ],
+  "group_and_audit_columns": [
+    "match_id",
+    "event_id",
+    "event_index",
+    "match_date",
+    "home_team_id",
+    "home_team_name",
+    "away_team_id",
+    "away_team_name",
+    "team_id",
+    "team_name",
+    "opponent_id",
+    "opponent_name",
+    "player_id",
+    "player_name",
+    "period",
+    "minute",
+    "second",
+    "possession_id",
+    "is_home",
+    "is_penalty"
+  ],
+  "geometry_audit_columns": [
+    "x",
+    "y"
+  ],
+  "excluded_from_model": [
+    "match_id",
+    "event_id",
+    "event_index",
+    "match_date",
+    "home_team_id",
+    "home_team_name",
+    "away_team_id",
+    "away_team_name",
+    "team_id",
+    "team_name",
+    "opponent_id",
+    "opponent_name",
+    "player_id",
+    "player_name",
+    "period",
+    "minute",
+    "second",
+    "possession_id",
+    "is_home",
+    "is_penalty",
+    "x",
+    "y",
+    "shot_outcome",
+    "statsbomb_xg",
+    "shot_end_location",
+    "score",
+    "duration",
+    "defensive_action",
+    "post_shot_fields",
+    "off_camera",
+    "freeze_frame",
+    "is_goal"
+  ],
+  "interpretation": "False for provider flags means the flag is absent from the record, not certainty that the real-world condition was absent. No rescaling or home/away coordinate flip is applied.",
+  "audit_only_columns": [
+    "off_camera",
+    "x",
+    "y"
+  ]
+}

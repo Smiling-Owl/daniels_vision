@@ -1,0 +1,216 @@
+{
+  "status": "locked",
+  "algorithm": "StratifiedGroupKFold(shuffle=True, random_state=42)",
+  "n_splits": 10,
+  "seed": 42,
+  "shot_csv_sha256": "8d816beff3683f38bbe071d2570a2d167b85b0bdf432216622c2a15048fc3ea0",
+  "holdout_manifest_sha256": "a13333d293a42a1b00d6f2d5a53d7893aae80efaaf4f881240c2994809661081",
+  "holdout_membership_csv_sha256": "6f440ba578677f9d0eb2f343960285fb1d006d864490cf1a40c868a06e1c2cc7",
+  "model_contract_sha256": "863f1865be25468f4805353db9f0fb4301339de2791fd04a9ac8488bbf66ca98",
+  "scikit_learn_version": "1.9.1",
+  "training_match_count": 304,
+  "training_shot_count": 7334,
+  "cv_membership_sha256": "adbf280606b59a47b83288afaba60c3432fa111752f424f90c84682fb2adfab5",
+  "validation_folds": [
+    {
+      "fold": 1,
+      "train_shot_count": 6605,
+      "validation_shot_count": 729,
+      "train_match_count": 275,
+      "validation_match_count": 29,
+      "train_goal_count": 717,
+      "train_non_goal_count": 5888,
+      "validation_goal_count": 85,
+      "validation_non_goal_count": 644,
+      "train_goal_rate": 0.10855412566237699,
+      "validation_goal_rate": 0.11659807956104253,
+      "transformed_feature_count": 28,
+      "unknown_category_counts": {
+        "body_part": 0,
+        "shot_type": 0,
+        "technique": 0,
+        "play_pattern": 0
+      }
+    },
+    {
+      "fold": 2,
+      "train_shot_count": 6607,
+      "validation_shot_count": 727,
+      "train_match_count": 274,
+      "validation_match_count": 30,
+      "train_goal_count": 723,
+      "train_non_goal_count": 5884,
+      "validation_goal_count": 79,
+      "validation_non_goal_count": 648,
+      "train_goal_rate": 0.10942939306795822,
+      "validation_goal_rate": 0.10866574965612105,
+      "transformed_feature_count": 28,
+      "unknown_category_counts": {
+        "body_part": 0,
+        "shot_type": 0,
+        "technique": 0,
+        "play_pattern": 0
+      }
+    },
+    {
+      "fold": 3,
+      "train_shot_count": 6608,
+      "validation_shot_count": 726,
+      "train_match_count": 274,
+      "validation_match_count": 30,
+      "train_goal_count": 722,
+      "train_non_goal_count": 5886,
+      "validation_goal_count": 80,
+      "validation_non_goal_count": 646,
+      "train_goal_rate": 0.10926150121065376,
+      "validation_goal_rate": 0.11019283746556474,
+      "transformed_feature_count": 28,
+      "unknown_category_counts": {
+        "body_part": 0,
+        "shot_type": 0,
+        "technique": 0,
+        "play_pattern": 0
+      }
+    },
+    {
+      "fold": 4,
+      "train_shot_count": 6595,
+      "validation_shot_count": 739,
+      "train_match_count": 273,
+      "validation_match_count": 31,
+      "train_goal_count": 723,
+      "train_non_goal_count": 5872,
+      "validation_goal_count": 79,
+      "validation_non_goal_count": 660,
+      "train_goal_rate": 0.10962850644427596,
+      "validation_goal_rate": 0.10690121786197564,
+      "transformed_feature_count": 28,
+      "unknown_category_counts": {
+        "body_part": 0,
+        "shot_type": 0,
+        "technique": 0,
+        "play_pattern": 0
+      }
+    },
+    {
+      "fold": 5,
+      "train_shot_count": 6607,
+      "validation_shot_count": 727,
+      "train_match_count": 274,
+      "validation_match_count": 30,
+      "train_goal_count": 724,
+      "train_non_goal_count": 5883,
+      "validation_goal_count": 78,
+      "validation_non_goal_count": 649,
+      "train_goal_rate": 0.10958074769184199,
+      "validation_goal_rate": 0.10729023383768914,
+      "transformed_feature_count": 28,
+      "unknown_category_counts": {
+        "body_part": 0,
+        "shot_type": 0,
+        "technique": 0,
+        "play_pattern": 0
+      }
+    },
+    {
+      "fold": 6,
+      "train_shot_count": 6594,
+      "validation_shot_count": 740,
+      "train_match_count": 273,
+      "validation_match_count": 31,
+      "train_goal_count": 723,
+      "train_non_goal_count": 5871,
+      "validation_goal_count": 79,
+      "validation_non_goal_count": 661,
+      "train_goal_rate": 0.10964513193812557,
+      "validation_goal_rate": 0.10675675675675676,
+      "transformed_feature_count": 28,
+      "unknown_category_counts": {
+        "body_part": 0,
+        "shot_type": 0,
+        "technique": 0,
+        "play_pattern": 0
+      }
+    },
+    {
+      "fold": 7,
+      "train_shot_count": 6596,
+      "validation_shot_count": 738,
+      "train_match_count": 273,
+      "validation_match_count": 31,
+      "train_goal_count": 723,
+      "train_non_goal_count": 5873,
+      "validation_goal_count": 79,
+      "validation_non_goal_count": 659,
+      "train_goal_rate": 0.10961188599151,
+      "validation_goal_rate": 0.1070460704607046,
+      "transformed_feature_count": 28,
+      "unknown_category_counts": {
+        "body_part": 0,
+        "shot_type": 0,
+        "technique": 0,
+        "play_pattern": 0
+      }
+    },
+    {
+      "fold": 8,
+      "train_shot_count": 6601,
+      "validation_shot_count": 733,
+      "train_match_count": 273,
+      "validation_match_count": 31,
+      "train_goal_count": 724,
+      "train_non_goal_count": 5877,
+      "validation_goal_count": 78,
+      "validation_non_goal_count": 655,
+      "train_goal_rate": 0.10968035146189971,
+      "validation_goal_rate": 0.10641200545702592,
+      "transformed_feature_count": 28,
+      "unknown_category_counts": {
+        "body_part": 0,
+        "shot_type": 0,
+        "technique": 0,
+        "play_pattern": 0
+      }
+    },
+    {
+      "fold": 9,
+      "train_shot_count": 6602,
+      "validation_shot_count": 732,
+      "train_match_count": 274,
+      "validation_match_count": 30,
+      "train_goal_count": 720,
+      "train_non_goal_count": 5882,
+      "validation_goal_count": 82,
+      "validation_non_goal_count": 650,
+      "train_goal_rate": 0.1090578612541654,
+      "validation_goal_rate": 0.11202185792349727,
+      "transformed_feature_count": 28,
+      "unknown_category_counts": {
+        "body_part": 0,
+        "shot_type": 0,
+        "technique": 0,
+        "play_pattern": 0
+      }
+    },
+    {
+      "fold": 10,
+      "train_shot_count": 6591,
+      "validation_shot_count": 743,
+      "train_match_count": 273,
+      "validation_match_count": 31,
+      "train_goal_count": 719,
+      "train_non_goal_count": 5872,
+      "validation_goal_count": 83,
+      "validation_non_goal_count": 660,
+      "train_goal_rate": 0.10908815050826885,
+      "validation_goal_rate": 0.1117092866756393,
+      "transformed_feature_count": 28,
+      "unknown_category_counts": {
+        "body_part": 0,
+        "shot_type": 0,
+        "technique": 0,
+        "play_pattern": 0
+      }
+    }
+  ]
+}

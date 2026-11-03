@@ -1,0 +1,47 @@
+{
+  "status": "draft_artifacts_verified_screenshots_pending",
+  "project_tests_passed": 73,
+  "artifacts": [
+    {
+      "path": "E:\\dev-work\\daniels_vision\\reports\\final_project_report.docx",
+      "sha256": "1ed269178816dfb0e90a4fc3175faf2a6e173ba8391581245ae1e8e5d97d976f"
+    },
+    {
+      "path": "E:\\dev-work\\daniels_vision\\reports\\portfolio_presentation.pptx",
+      "sha256": "0b4fdaa2595912320ba318bdf321642afc8901889ec80cf7c794d644ed1abd49"
+    },
+    {
+      "path": "E:\\dev-work\\daniels_vision\\notebooks\\09_report_evidence.ipynb",
+      "sha256": "57159d3908245ff4f9b9a207cb62138074f7ea398d228ce9a8fdd0b9b64e7e74"
+    },
+    {
+      "path": "E:\\dev-work\\daniels_vision\\portfolio\\README.md",
+      "sha256": "1278921ead4248ed95551b5784fa9910f33dec002838a74842ab549e6a7f4c1e"
+    },
+    {
+      "path": "E:\\dev-work\\daniels_vision\\docs\\phase_10_submission_checklist.md",
+      "sha256": "b498c65e1e096bce0b285a1af5a2387716f92d8f4d27cfc6d02be6deeada0914"
+    },
+    {
+      "path": "E:\\dev-work\\daniels_vision\\docs\\phase_10_walkthrough.md",
+      "sha256": "e4d32900fe9ac1b28b644dbf5b0e27783d36c380c48f568747823734ec57908d"
+    }
+  ],
+  "document_helper_limitation": "render_docx.py unavailable because LibreOffice is not installed; native Word used for layout verification",
+  "report_render": "Native Microsoft Word PDF export followed by page rasterization and inspection of all 17 pages",
+  "unchanged_critical_sources": [
+    "shots.csv",
+    "phase_08_selection.json",
+    "phase08_test_predictions.csv",
+    "phase08_development_predictions.csv"
+  ],
+  "presentation_slides": 15,
+  "report_pages": 17,
+  "evidence_notebook_code_cells_executed": 10,
+  "presentation_validation": "Package integrity, layout and fonts, native table and chart checks, embedded chart workbook, first-party import, all 15 final slide previews reviewed",
+  "outstanding": [
+    "Capture genuine notebook screenshots per submission checklist",
+    "Insert screenshots and review report layout again",
+    "Complete personal cover details when ready"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "project_tests_passed": 42,
+  "notebook_code_cells_executed": [
+    2,
+    4,
+    6,
+    8,
+    10
+  ],
+  "deterministic_phase6_artifacts": {
+    "docs/cv_manifest.json": "b20ad92440a5a38d13ed896291e9e014e7923b6ce73e6aca9f1b3e1b5855bcf8",
+    "data/processed/cv_membership.csv": "adbf280606b59a47b83288afaba60c3432fa111752f424f90c84682fb2adfab5",
+    "reports/tables/phase06_cv_summary.csv": "6aeb0758e5903d7307415c53e7c7f11a9a818ede97e38c640980a6d2ca0782c5",
+    "docs/phase_06_preparation_report.json": "78735346a544d92ac4dd8b22ba24a9bb5299e259fc9c6f009d3749ff2adbbb3a"
+  },
+  "protected_files_unchanged": {
+    "docs\\split_manifest.json": "a13333d293a42a1b00d6f2d5a53d7893aae80efaaf4f881240c2994809661081",
+    "data\\processed\\split_membership.csv": "6f440ba578677f9d0eb2f343960285fb1d006d864490cf1a40c868a06e1c2cc7",
+    "docs\\model_columns.json": "863f1865be25468f4805353db9f0fb4301339de2791fd04a9ac8488bbf66ca98",
+    "data\\processed\\shots.csv": "8d816beff3683f38bbe071d2570a2d167b85b0bdf432216622c2a15048fc3ea0"
+  },
+  "no_classifiers_fitted": true,
+  "test_outcomes_not_evaluated": true,
+  "learner_vscode_checkpoint": "pending"
+}

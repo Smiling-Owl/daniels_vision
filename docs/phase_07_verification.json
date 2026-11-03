@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "project_tests_passed": 52,
+  "notebook_code_cells_executed": [
+    2,
+    5,
+    7,
+    9,
+    11
+  ],
+  "deterministic_phase7_artifacts": {
+    "reports\\tables\\phase07_fold_metrics.csv": "ee158d0562217e363f366586582f13f5385b43589699967cf8e5f30ea473f40f",
+    "reports\\tables\\phase07_model_comparison.csv": "6edd1fd2fddf9784c94140086fbfe9f0046c871a1fd5f4e90c56b9b458a9b6fc",
+    "reports\\tables\\phase07_oof_predictions.csv": "77eba0a6a27608a504582e6e96a50f1c224508a47a347bb25a4db910076ddd19",
+    "reports\\tables\\phase07_training_predictions.csv": "723b7ab16545a138102a353a08e3df60a7af91d40d068a92fe54c8af38d814d1",
+    "reports\\figures\\phase07_model_comparison.png": "f9ce876d853112c75b9df37a2f53036d8f50401ced955b41484fa87ff8f0308f",
+    "reports\\figures\\phase07_oof_confusion_matrices.png": "ae98492ec5c2f6ccd012dddd5e1f37b6432d5c484806f40b0b876d3bd09bee97",
+    "models\\phase07\\gaussian_nb.joblib": "b7d4e48a89c833b4223fd08f59087e5e05cb5ba149f189c0b6eea31166ab105b",
+    "models\\phase07\\knn_50.joblib": "8a0fc40fe2b80f70c6c4db8a76dab0d6514d1ba773a4e27135c41d94b248f512",
+    "models\\phase07\\logistic_regression.joblib": "3904e100799c5b3211cc7512af973852fa8c7bb4e42c01b0af5f61d436a29595",
+    "models\\phase07\\manifest.json": "18dd3e5800d380fedbbfa32f0729a446bf51fb2b6ccb9612335604d6d8f425db",
+    "models\\phase07\\prior_baseline.joblib": "cd3a9e2f37c2b9c550bfd90a2b28076d434b4dc981e98565e31fba0c6cff045f",
+    "docs\\phase_07_protocol.json": "13496fe09cd37b7d833a0d6f335abd0c3359691230ac7165ef886eb5bbd97caa",
+    "docs\\phase_07_model_report.json": "c121adcc80bc4e2c3c2b116c556e9cb5875ead80b71f396d22e2bcabb80ab382"
+  },
+  "protected_files_unchanged": {
+    "docs\\model_columns.json": "863f1865be25468f4805353db9f0fb4301339de2791fd04a9ac8488bbf66ca98",
+    "data\\processed\\split_membership.csv": "6f440ba578677f9d0eb2f343960285fb1d006d864490cf1a40c868a06e1c2cc7",
+    "data\\processed\\cv_membership.csv": "adbf280606b59a47b83288afaba60c3432fa111752f424f90c84682fb2adfab5",
+    "docs\\split_manifest.json": "a13333d293a42a1b00d6f2d5a53d7893aae80efaaf4f881240c2994809661081",
+    "docs\\cv_manifest.json": "b20ad92440a5a38d13ed896291e9e014e7923b6ce73e6aca9f1b3e1b5855bcf8",
+    "data\\processed\\shots.csv": "8d816beff3683f38bbe071d2570a2d167b85b0bdf432216622c2a15048fc3ea0"
+  },
+  "test_partition_not_evaluated": true,
+  "visual_review": "passed: both exported figures inspected; revised comparison titles fit without clipping",
+  "learner_vscode_checkpoint": "pending",
+  "saved_prediction_metrics_recomputed": "passed: pooled log loss, Brier score, AP, ROC AUC, accuracy; fitting-fold baseline prevalence verified",
+  "pipeline_serialization_round_trip": "passed: predictions checked on the same full-training batch after reload"
+}

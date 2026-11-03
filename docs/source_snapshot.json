@@ -1,0 +1,31 @@
+{
+  "repository": "https://github.com/hudl/open-data",
+  "commit": "4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "commit_date": "2026-09-07T16:27:15Z",
+  "recorded_on": "2026-10-22",
+  "dataset": {
+    "competition": "La Liga",
+    "season": "2015/2016",
+    "competition_id": 11,
+    "season_id": 27,
+    "expected_match_count": 380,
+    "verified_match_count": 380,
+    "verified_event_file_count": 380,
+    "verified_event_count": 1295354
+  },
+  "raw_base_url": "https://raw.githubusercontent.com/hudl/open-data/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "repository_files": [
+    "data/competitions.json",
+    "data/matches/11/27.json",
+    "data/events/<match_id>.json",
+    "README.md",
+    "LICENSE.pdf"
+  ],
+  "local_snapshot_directory": "data/raw/statsbomb/4b73468fc5b0f1950f9f66fada70ad3a4f9327cb",
+  "integrity": {
+    "algorithm": "SHA-256",
+    "per_file_records": "manifest.json",
+    "verified_match_count_is_populated_only_after_acquisition": true
+  },
+  "verified_at_utc": "2026-10-22T09:07:20+00:00"
+}

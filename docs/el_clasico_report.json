@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "scope": "DEVELOPMENT OOF CASE STUDY; conditional observed-shot simulations, not test evaluation",
+  "candidate": "logistic_regression_sigmoid",
+  "protocol_sha256": "48ae76f0aaf57f311c79fe9cb3710b6c48ba6615443b3025b185904ae99a103d",
+  "phase8_selection_sha256": "c6ce4779199cd4ee65737ec85c8a91ef6d8588a94eaa4a07fbc0484b99d6044c",
+  "oof_predictions_sha256": "a0f2d930f72144c1b080ad8b787179dcf5f743f593285a352c15c58b3e696960",
+  "cases": [
+    {
+      "match_id": 266424,
+      "match_date": "2015-11-21",
+      "home_team_id": 220,
+      "home_team_name": "Real Madrid",
+      "away_team_id": 217,
+      "away_team_name": "Barcelona",
+      "official_home_goals": 0,
+      "official_away_goals": 4,
+      "observed_shot_goals_home": 0,
+      "observed_shot_goals_away": 4,
+      "own_goals_credited_home": 0,
+      "own_goals_credited_away": 0,
+      "own_goal_against_events": 0,
+      "outer_oof_fold": 2,
+      "home_shot_count": 13,
+      "away_shot_count": 18,
+      "home_sum_goal_probability": 1.0980794161079046,
+      "away_sum_goal_probability": 2.838536714740331,
+      "home_expected_shot_goals": 1.0980794161079046,
+      "away_expected_shot_goals": 2.838536714740331,
+      "home_mc_mean_goals": 1.10242,
+      "away_mc_mean_goals": 2.84086,
+      "home_mean_mcse": 0.0030536090389841784,
+      "away_mean_mcse": 0.004536496386832781,
+      "exact_home_win_probability": 0.0919824669739891,
+      "exact_draw_probability": 0.14249086568425906,
+      "exact_away_win_probability": 0.7655266673417522,
+      "mc_home_win_count": 9222,
+      "mc_draw_count": 14365,
+      "mc_away_win_count": 76413,
+      "mc_home_win_probability": 0.09222,
+      "mc_draw_probability": 0.14365,
+      "mc_away_win_probability": 0.76413,
+      "home_expected_points_exact": 0.41843826660622635,
+      "away_expected_points_exact": 2.439070867709516,
+      "trials": 100000
+    },
+    {
+      "match_id": 267533,
+      "match_date": "2016-04-02",
+      "home_team_id": 217,
+      "home_team_name": "Barcelona",
+      "away_team_id": 220,
+      "away_team_name": "Real Madrid",
+      "official_home_goals": 1,
+      "official_away_goals": 2,
+      "observed_shot_goals_home": 1,
+      "observed_shot_goals_away": 2,
+      "own_goals_credited_home": 0,
+      "own_goals_credited_away": 0,
+      "own_goal_against_events": 0,
+      "outer_oof_fold": 7,
+      "home_shot_count": 14,
+      "away_shot_count": 15,
+      "home_sum_goal_probability": 0.9005619188232656,
+      "away_sum_goal_probability": 1.5442316142544483,
+      "home_expected_shot_goals": 0.9005619188232656,
+      "away_expected_shot_goals": 1.5442316142544483,
+      "home_mc_mean_goals": 0.90222,
+      "away_mc_mean_goals": 1.54467,
+      "home_mean_mcse": 0.002870705708656331,
+      "away_mean_mcse": 0.003559845035522399,
+      "exact_home_win_probability": 0.20492890211817516,
+      "exact_draw_probability": 0.25905871935002334,
+      "exact_away_win_probability": 0.5360123785318014,
+      "mc_home_win_count": 20449,
+      "mc_draw_count": 25951,
+      "mc_away_win_count": 53600,
+      "mc_home_win_probability": 0.20449,
+      "mc_draw_probability": 0.25951,
+      "mc_away_win_probability": 0.536,
+      "home_expected_points_exact": 0.8738454257045488,
+      "away_expected_points_exact": 1.8670958549454275,
+      "trials": 100000
+    }
+  ],
+  "match_count": 2,
+  "shot_count": 60,
+  "trial_count_per_match": 100000,
+  "checks": {
+    "both_cases_are_training_matches": true,
+    "both_cases_are_outside_test_partition": true,
+    "one_outer_oof_fold_per_case_match": true,
+    "exact_probabilities_sum_to_one": true,
+    "mc_outcome_counts_sum_to_trials": true,
+    "own_goals_not_simulated": true
+  },
+  "limitations": [
+    "Development OOF case study: the outer validation match is excluded from that fold's fitting/calibration, but the variant was selected using overall development results. Not an independent test evaluation.",
+    "Conditional on recorded shots and fixed OOF probabilities; not a pre-match forecast or causal estimate of points deserved.",
+    "Monte Carlo error is numerical sampling variation and excludes model/probability uncertainty.",
+    "Shots may be dependent; the simulator holds the observed attempt set fixed and assumes independent Bernoulli outcomes."
+  ],
+  "outputs": {
+    "reports/tables/el_clasico_match_summary.csv": {
+      "bytes": 1504,
+      "sha256": "b9ad14e6475171f6020dd8c113d87d89bf868ccafd2937e13dcddbb391444498"
+    },
+    "reports/tables/el_clasico_scorelines.csv": {
+      "bytes": 21822,
+      "sha256": "820253cab2a901cd436e07cc1f76aadb776543fcb9604a33db6597648694d4b5"
+    },
+    "reports/tables/el_clasico_shots.csv": {
+      "bytes": 6302,
+      "sha256": "80d862d1738c6c84adf406c80571a4db6b091cddaed4c9b84fbdb9aa0402df45"
+    },
+    "reports/figures/el_clasico_266424_outcomes.png": {
+      "bytes": 62976,
+      "sha256": "99614d1546afccedd004d26fe41e973291d55ddcafd0ca8fbaac837ee9c2e8c6"
+    },
+    "reports/figures/el_clasico_267533_outcomes.png": {
+      "bytes": 63438,
+      "sha256": "4cf6debf6d5650d9e14111937f024b6c1c45ce5c28a8d3679b4e215af028a13b"
+    },
+    "reports/figures/el_clasico_joint_scorelines.png": {
+      "bytes": 123458,
+      "sha256": "35e4b03246d11147ea3e5f1cdfd8e4311dc3381db8faeff3277606cba0d8d67c"
+    }
+  }
+}
